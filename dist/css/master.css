@@ -24,20 +24,35 @@
 .news-media-list .item-subtitle {
   color: gray;
 }
-.circular {
-  width: 18%;
-  height: 8%;
-  border-radius: 50%;
+.love {
+  display: inline-block;
   background-color: #f7f7f8;
-  top: 87%;
   margin-left: 40%;
   position: fixed;
   text-align: center;
+  border-top: 0.05rem solid gray;
+  position: absolute;
+  width: 3.5rem;
+  top: -1.85rem;
+  height: 3.55rem;
+  border-radius: 100% 100% 0 0;
 }
-.circular .icon {
-  font-size: 3rem;
-  padding-top: 30%;
+.love div {
+  height: 3rem;
+  width: 3rem;
+}
+.love .icon {
+  padding: 0;
+  line-height: 3rem;
+  font-size: 2.5rem;
   color: #e01a57;
+}
+.love-external span {
+  font-size: 0.5rem;
+}
+#loveBtn {
+  height: 0.5rem;
+  padding: 0;
 }
 /*个人中心*/
 .information-card {
@@ -101,7 +116,7 @@
 }
 .order-card .card-content div p {
   font-size: 0.8rem;
-  margin: 0 ;
+  margin: 0;
 }
 .tool-card .card-content div .icon {
   font-size: 1.4rem;

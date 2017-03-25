@@ -33,20 +33,38 @@
 }
 
 //工具栏的圆
-.circular {
-    width: 18%;
-    height: 8%;
-    border-radius: 50%;
+.love {
+    display: inline-block;
     background-color: #f7f7f8;
-    top: 87%;
     margin-left: 40%;
     position: fixed;
     text-align: center;
+    border-top: 0.05rem solid gray;
+    position: absolute;
+    width: 3.5rem;
+    top: -1.85rem;
+    height: 3.55rem;
+    border-radius: 100% 100% 0 0;
+    & div {
+        height: 3rem;
+        width: 3rem;
+    }
     & .icon {
-        font-size: 3rem;
-        padding-top: 30%;
+        padding: 0;
+        line-height: 3rem;
+        font-size: 2.5rem;
         color: #e01a57;
     }
+}
+
+.love-external {
+    & span {
+        font-size: 0.5rem;
+    }
+}
+#loveBtn {
+    height: 0.5rem;
+    padding: 0;
 }
 
 
@@ -108,26 +126,27 @@
         width: 25%;
         float: left;
     }
-    
 }
+
 //我的订单
 //常用工具
 .order-card {
-	& .card-content div .icon {
-    	font-size: 2rem;
+    & .card-content div .icon {
+        font-size: 2rem;
     }
-    & .card-content div p{
-    	font-size: 0.8rem;
-        margin: 0 ;
+    & .card-content div p {
+        font-size: 0.8rem;
+        margin: 0;
     }
 }
+
 .tool-card {
-	& .card-content div .icon {
-    	font-size: 1.4rem;
+    & .card-content div .icon {
+        font-size: 1.4rem;
     }
     & .card-content div span {
-    	width: 2.5rem;
-        height: 2.5rem; 
+        width: 2.5rem;
+        height: 2.5rem;
         border-radius: 50%;
         line-height: 2.5rem;
         color: #ffffff;
@@ -144,12 +163,9 @@
     & #bindingBtn {
         background-color: #1bb579;
     }
-    & .card-content div p{
-    	font-size: 0.8rem;
-        margin: 0.5rem 0 0 0;;
+    & .card-content div p {
+        font-size: 0.8rem;
+        margin: 0.5rem 0 0 0;
+        ;
     }
-
 }
-
-
-
