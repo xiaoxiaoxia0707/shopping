@@ -26,7 +26,7 @@
 }
 .circular {
   width: 18%;
-  height: 10%;
+  height: 8%;
   border-radius: 50%;
   background-color: #f7f7f8;
   top: 87%;
@@ -36,6 +36,96 @@
 }
 .circular .icon {
   font-size: 3rem;
-  padding-top: 1rem;
+  padding-top: 30%;
   color: #e01a57;
+}
+/*个人中心*/
+.information-card {
+  margin: 0rem;
+  height: 8rem;
+  background-color: #e01a57;
+}
+.information-card .item-media img {
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+}
+.information-card .list-block.media-list .item-media {
+  padding: 1.8rem 0 0.5rem 0.25rem;
+}
+.information-card .list-block.media-list .item-inner {
+  padding-top: 2.5rem;
+  color: #fff;
+  font-size: 0.8rem;
+}
+.information-card .account-item-title {
+  color: #fff;
+  line-height: 1.7rem;
+  font-size: 0.8rem;
+}
+.information-card .account-item-title .item-title {
+  float: left;
+  padding-left: 0.75rem;
+}
+.information-card .account-item-title .icon {
+  float: right;
+  padding-right: 0.75rem;
+}
+.order-card .card-header .list-block,
+.tool-card .card-header .list-block {
+  width: 100%;
+  font-size: 0.8rem;
+}
+.order-card .list-block .item-content,
+.tool-card .list-block .item-content {
+  padding: 0;
+}
+.order-card .list-block .item-link .item-inner,
+.tool-card .list-block .item-link .item-inner {
+  padding: 0;
+  margin: 0;
+}
+.order-card .card-content,
+.tool-card .card-content {
+  height: 5rem;
+  text-align: center;
+  margin: 0.75rem auto 0rem;
+}
+.order-card .card-content div,
+.tool-card .card-content div {
+  width: 25%;
+  float: left;
+}
+.order-card .card-content div .icon {
+  font-size: 2rem;
+}
+.order-card .card-content div p {
+  font-size: 0.8rem;
+  margin: 0 ;
+}
+.tool-card .card-content div .icon {
+  font-size: 1.4rem;
+}
+.tool-card .card-content div span {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  line-height: 2.5rem;
+  color: #ffffff;
+}
+.tool-card #purchaseBtn {
+  background-color: #c94866;
+}
+.tool-card #mechanismBtn {
+  background-color: #4a68c8;
+}
+.tool-card #activityBtn {
+  background-color: #e8892d;
+}
+.tool-card #bindingBtn {
+  background-color: #1bb579;
+}
+.tool-card .card-content div p {
+  font-size: 0.8rem;
+  margin: 0.5rem 0 0 0;
 }
