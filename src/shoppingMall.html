@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/sm.css">
     <link rel="stylesheet" type="text/css" href="css/sm-extend.css">
     <link rel="stylesheet" type="text/css" href="css/master.css">
+    <link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_typ3gn0l766r.css">
 </head>
 
 <body>
@@ -17,18 +18,64 @@
             <!--搜索栏内容 !-->
             <div class="bar bar-header-secondary">
                 <div class="searchbar">
-                    <a href=""><div class="searchbar-address">厦门市&nbsp;&nbsp;<span class="icon icon-down"></span></div></a>
+                    <a href="">
+                        <div class="searchbar-address">厦门市&nbsp;&nbsp;<span class="icon icon-down"></span></div>
+                    </a>
                     <div class="search-input">
                         <label class="icon icon-search" for="search"></label>
                         <input type="search" id='search' placeholder='请输入商品名称' />
                     </div>
                 </div>
             </div>
+            <!-- 幻灯片Slider -->
+            <div class="swiper-container" data-space-between='10'>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="http://gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i3/TB10LfcHFXXXXXKXpXXXXXXXXXX_!!0-item_pic.jpg_250x250q60.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="http://gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i3/TB10LfcHFXXXXXKXpXXXXXXXXXX_!!0-item_pic.jpg_250x250q60.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="http://gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i3/TB10LfcHFXXXXXKXpXXXXXXXXXX_!!0-item_pic.jpg_250x250q60.jpg" alt=""></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <!--tab栏 !-->
+            <div class="buttons-tab fixed-tab" data-offset="44">
+                <a href="#tab1" class="tab-link active button">新闻</a>
+                <a href="#tab2" class="tab-link button">视频</a>
+                <a href="#tab3" class="tab-link button">热点</a>
+            </div>
+            <!--工具栏!-->
+            <nav class="bar bar-tab">
+                <a class="tab-item external" href="#">
+                    <span class="icon icon-home"></span>
+                    <span class="tab-label">首页</span>
+                </a>
+                <a class="tab-item external" href="#">
+                    <span class="icon iconfont icon-publicwf"></span>
+                    <span class="tab-label">捐助</span>
+                </a>
+                <a class="tab-item external" href="#">
+                    <span class="icon icon-star"></span>
+                    <span class="tab-label">爱心</span>
+                </a>
+                <a class="tab-item external" href="#">
+                    <span class="icon iconfont icon-pintu"></span>
+                    <span class="tab-label">拼图</span>
+                </a>
+                <a class="tab-item external" href="#">
+                    <span class="icon icon-me"></span>
+                    <span class="tab-label">个人中心</span>
+                </a>
+            </nav>
         </div>
     </div>
     <script type='text/javascript' src='js/lib/zepto.js' charset='utf-8'></script>
     <script type='text/javascript' src='js/lib/sm.js' charset='utf-8'></script>
     <script type='text/javascript' src='js/lib/sm-extend.js' charset='utf-8'></script>
+    <script type="text/javascript">
+    $(function() {
+        $(".swiper-container").swiper(config);
+
+    });
+    </script>
 </body>
 
 </html>
