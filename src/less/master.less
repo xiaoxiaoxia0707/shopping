@@ -1,12 +1,50 @@
 /*商城首页*/
+
 //搜索栏
 .searchbar {
-	& .searchbar-address {
-		float: left;
-	}
-	& .icon-down {
-		color: #fff;
-		line-height: 3rem;
-		padding: 0;
-	}
+    & .searchbar-address {
+        float: left;
+    }
+    & .icon-down {
+        color: #fff;
+        line-height: 3rem;
+        padding: 0;
+    }
+}
+
+//信息列表页
+.news-media-list {
+    margin: 0;
+    & .item-content .item-media {
+        width: 34%;
+        padding: 0 0.25rem 0 0;
+    }
+    & .item-content p {
+        margin: 0;
+    }
+    & .item-content .item-media img {
+        width: 100%;
+        height: 4rem;
+    }
+    //信息里面的副标题
+    & .item-subtitle {
+        color: gray;
+    }
+}
+
+//工具栏的圆
+.circular {
+    width: 18%;
+    height: 10%;
+    border-radius: 50%;
+    background-color: #f7f7f8;
+    top: 87%;
+    margin-left: 40%;
+    position: fixed;
+    text-align: center;
+    & .icon {
+        font-size: 3rem;
+        padding-top: 1rem;
+        color: #e01a57;
+    }
 }

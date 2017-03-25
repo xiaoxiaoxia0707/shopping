@@ -1130,7 +1130,6 @@ a {
 /* === Lists === */
 .list-block {
   margin: 1.75rem 0;
-  font-size: 0.5rem;
   /*
     .swipeout {
         overflow: hidden;
@@ -2092,7 +2091,7 @@ label.label-checkbox.active-state .item-inner:after {
 }
 .bar .searchbar {
   margin: 0rem;
-  padding: 0rem 1rem;
+  padding: 0rem 0.75rem;
   background: rgba(0, 0, 0, 0.1);
 }
 .bar .searchbar .search-input input {
