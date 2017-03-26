@@ -1,0 +1,27 @@
+/*分类页面*/
+.class-branch-content {
+  margin-top: 3rem;
+  background-color: #f6f6f5;
+}
+.class-branch-content .content-padded,
+.class-branch-content .col-20,
+.class-branch-content .list-block {
+  margin: 0;
+}
+#nav-col-20 .list-block .item-content {
+  padding: 0;
+}
+#nav-col-20 .list-group ul {
+  height: 8rem;
+}
+#nav-col-20 #menu-list-group ul li {
+  height: 2rem;
+  line-height: 2rem;
+}
+#main-col-80 .list-block .item-content,
+#main-col-80 .list-block.media-list .item-media {
+  padding: 0;
+}
+#main-col-80 img {
+  height: 3rem;
+}

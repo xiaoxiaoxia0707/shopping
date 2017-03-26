@@ -13,8 +13,8 @@
 </head>
 
 <body>
-    <div class="page-group">
-        <div class="page">
+    <div class="page">
+        <div class="content person-content">
             <div class="card information-card">
                 <div class="card-content">
                     <div class="list-block media-list">
@@ -31,10 +31,6 @@
                                 </div>
                             </li>
                         </ul>
-                    </div>
-                    <div class="item-title-row account-item-title">
-                        <div class="item-title">账户余额：142.42</div>
-                        <span class="icon icon-right"></span>
                     </div>
                 </div>
             </div>
@@ -104,38 +100,45 @@
                     </div>
                 </div>
             </div>
-
-            <!--工具栏!-->
-            <nav class="bar bar-tab">
-            	 <div class="love">
-                    <div class="icon iconfont icon-icontianjiaanniu"></div>
-                </div>
-                <a class="tab-item external" href="#">
-                    <span class="icon icon-home"></span>
-                    <span class="tab-label">首页</span>
-                </a>
-                <a class="tab-item external" href="#">
-                    <span class="icon iconfont icon-publicwf"></span>
-                    <span class="tab-label">捐助</span>
-                </a>
-                <a class=" tab-item love-external external " href="#" id="loveBtn">
-                    <span class="icon "></span>
-                    <span class="tab-label">爱心+</span>
-                </a>
-                <a class="tab-item external" href="#">
-                    <span class="icon iconfont icon-pintu"></span>
-                    <span class="tab-label">拼图</span>
-                </a>
-                <a class="tab-item external" href="#">
-                    <span class="icon icon-me"></span>
-                    <span class="tab-label">个人中心</span>
-                </a>
-            </nav>
         </div>
+        <!--工具栏!-->
+        <nav class="bar bar-tab">
+            <div class="love">
+                <div class="icon iconfont icon-icontianjiaanniu"></div>
+            </div>
+            <a class="tab-item external" href="#">
+                <span class="icon icon-home"></span>
+                <span class="tab-label">首页</span>
+            </a>
+            <a class="tab-item external" href="#">
+                <span class="icon iconfont icon-publicwf"></span>
+                <span class="tab-label">捐助</span>
+            </a>
+            <a class=" tab-item love-external external " href="#" id="loveBtn">
+                <span class="icon "></span>
+                <span class="tab-label">爱心+</span>
+            </a>
+            <a class="tab-item external" href="#">
+                <span class="icon iconfont icon-pintu"></span>
+                <span class="tab-label">拼图</span>
+            </a>
+            <a class="tab-item external" href="#">
+                <span class="icon icon-me"></span>
+                <span class="tab-label">个人中心</span>
+            </a>
+        </nav>
     </div>
     <script type='text/javascript' src='js/lib/zepto.js' charset='utf-8'></script>
     <script type='text/javascript' src='js/lib/sm.js' charset='utf-8'></script>
     <script type='text/javascript' src='js/lib/sm-extend.js' charset='utf-8'></script>
+    <script type="text/javascript">
+    $(function() {
+        $(".content").scroller({
+            type: 'js'
+        });
+        $.init();
+    });
+    </script>
 </body>
 
 </html>

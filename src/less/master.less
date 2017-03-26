@@ -1,9 +1,14 @@
 /*商城首页*/
+//给每个content加下高度，才能滑动
+.shopping-content,.person-content{
+    height: 100%; 
+}
 
 //搜索栏
 .searchbar {
     & .searchbar-address {
         float: left;
+        color: #fff;
     }
     & .icon-down {
         color: #fff;
@@ -43,7 +48,7 @@
     position: absolute;
     width: 3.5rem;
     top: -1.85rem;
-    height: 3.55rem;
+    height: 3.5rem;
     border-radius: 100% 100% 0 0;
     & div {
         height: 3rem;
@@ -81,7 +86,7 @@
         height: 4rem;
     }
     & .list-block.media-list .item-media {
-        padding: 1.8rem 0 0.5rem 0.25rem;
+        padding: 2rem 0 2rem 0.25rem;
     }
     & .list-block.media-list .item-inner {
         padding-top: 2.5rem;
@@ -114,8 +119,7 @@
         padding: 0;
     }
     & .list-block .item-link .item-inner {
-        padding: 0;
-        margin: 0;
+       margin: 0 0.75rem;
     }
     & .card-content {
         height: 5rem;

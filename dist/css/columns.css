@@ -1,0 +1,63 @@
+/*确定订单的页面*/
+.address-card {
+  margin: 0;
+}
+.address-card .item-inner {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+.address-card .item-subtitle {
+  font-size: 0.75rem;
+}
+.address-card span {
+  background-color: #e01a57;
+  color: #fff;
+}
+.address-card .item-title {
+  color: #000000;
+  font-weight: bold;
+}
+.produce-card .card-content .item-inner,
+.produce-card li.distribution-li {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  line-height: 1rem;
+}
+.produce-card .item-subtitle,
+.produce-card .item-text {
+  font-size: 0.85rem;
+  margin-top: 0.25rem;
+}
+.produce-card img {
+  height: 4rem;
+  width: 4rem;
+}
+.produce-card .list-block {
+  margin: 0;
+}
+.produce-card .card-header.item-inner {
+  width: 80%;
+}
+#order-list-block span {
+  color: #e01a57;
+}
+#order-list-block .item-inner {
+  margin: 0;
+  white-space: nowrap;
+}
+.order-bar-tab h4 {
+  float: left;
+  margin: 0 0 0 25%;
+  color: #e01a57;
+  line-height: 2.5rem;
+  width: 45%;
+}
+.order-bar-tab .orderBtn {
+  text-align: center;
+  float: right;
+  width: 30%;
+  height: 100%;
+  background-color: #e01a57;
+  color: #fff;
+  line-height: 2.5rem;
+}

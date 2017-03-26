@@ -1,6 +1,11 @@
 /*商城首页*/
+.shopping-content,
+.person-content {
+  height: 100%;
+}
 .searchbar .searchbar-address {
   float: left;
+  color: #fff;
 }
 .searchbar .icon-down {
   color: #fff;
@@ -34,7 +39,7 @@
   position: absolute;
   width: 3.5rem;
   top: -1.85rem;
-  height: 3.55rem;
+  height: 3.5rem;
   border-radius: 100% 100% 0 0;
 }
 .love div {
@@ -66,7 +71,7 @@
   height: 4rem;
 }
 .information-card .list-block.media-list .item-media {
-  padding: 1.8rem 0 0.5rem 0.25rem;
+  padding: 2rem 0 2rem 0.25rem;
 }
 .information-card .list-block.media-list .item-inner {
   padding-top: 2.5rem;
@@ -97,8 +102,7 @@
 }
 .order-card .list-block .item-link .item-inner,
 .tool-card .list-block .item-link .item-inner {
-  padding: 0;
-  margin: 0;
+  margin: 0 0.75rem;
 }
 .order-card .card-content,
 .tool-card .card-content {
