@@ -1,8 +1,4 @@
 /*商城首页*/
-.shopping-content,
-.person-content {
-  height: 100%;
-}
 .searchbar .searchbar-address {
   float: left;
   color: #fff;
