@@ -1,12 +1,6 @@
 /*商城首页*/
-.searchbar .searchbar-address {
-  float: left;
-  color: #fff;
-}
-.searchbar .icon-down {
-  color: #fff;
-  line-height: 3rem;
-  padding: 0;
+.shopping-content .swiper-container {
+  margin: 0;
 }
 .news-media-list {
   margin: 0;
@@ -25,37 +19,10 @@
 .news-media-list .item-subtitle {
   color: gray;
 }
-.love {
-  display: inline-block;
-  background-color: #f7f7f8;
-  margin-left: 40%;
-  position: fixed;
-  text-align: center;
-  border-top: 0.05rem solid gray;
-  position: absolute;
-  width: 3.5rem;
-  top: -1.85rem;
-  height: 3.5rem;
-  border-radius: 100% 100% 0 0;
-}
-.love div {
-  height: 3rem;
-  width: 3rem;
-}
-.love .icon {
-  padding: 0;
-  line-height: 3rem;
-  font-size: 2.5rem;
-  color: #e01a57;
-}
-.love-external span {
-  font-size: 0.5rem;
-}
-#loveBtn {
-  height: 0.5rem;
-  padding: 0;
-}
 /*个人中心*/
+#person-content {
+  margin: 0;
+}
 .information-card {
   margin: 0rem;
   height: 8rem;

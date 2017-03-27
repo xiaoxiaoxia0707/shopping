@@ -1631,6 +1631,7 @@ html:not(.watch-active-state) .list-block .item-link:active .item-inner:after,
   font-weight: 500;
 }
 .list-block.media-list .item-inner {
+  padding-top: 0.5rem;
   display: block;
   -webkit-align-self: stretch;
   align-self: stretch;
