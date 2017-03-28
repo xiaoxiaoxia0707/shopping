@@ -283,7 +283,6 @@ a {
   right: 0;
   bottom: 0;
   left: 0;
-  height: 90%;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
 }
@@ -867,7 +866,7 @@ a {
   right: 0;
   left: 0;
   z-index: 10;
-  height: 3rem;
+  height: 2.25rem;
   background-color: #f7f7f8;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -972,7 +971,7 @@ a {
 .bar-tab {
   bottom: 0;
   width: 100%;
-  height: 10%;
+  height: 2.5rem;
   padding: 0;
   table-layout: fixed;
   border-top: 0.05rem solid gray;
@@ -2017,7 +2016,7 @@ label.label-checkbox.active-state .item-inner:after {
 .searchbar {
   padding: 8px 0;
   overflow: hidden;
-  height: 3rem;
+  height: 2.5rem;
   -webkit-box-align: center;
   -webkit-align-items: center;
   align-items: center;
@@ -2046,7 +2045,7 @@ label.label-checkbox.active-state .item-inner:after {
 }
 .searchbar .search-input input {
   margin: 0;
-  height: 1.8rem;
+  height: 1.5rem;
   border-radius: 12rem;
 }
 .searchbar.searchbar-active .searchbar-cancel {
