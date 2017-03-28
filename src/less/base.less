@@ -2,13 +2,17 @@
 .branchOrg-content,
 .activity-content,
 .organize-content {
-    margin-top: 3rem;
+    margin-top: 2.25rem;
+    & .list-block ul:after {
+        background-color: #e01a57; 
+    }
 }
+
 .searchbar {
-    height: 2.25rem; 
-    font-size: 0.85rem;
+    height: 2.25rem;
+    font-size: 0.75rem;
     & .icon {
-        font-size: 0.85rem;
+        font-size: 0.75rem;
     }
     & .searchbar-address {
         float: left;
@@ -24,6 +28,10 @@
     }
 }
 
+.list-block ul:after {
+    background-color: #f7f7f8;
+}
+
 //工具栏的圆
 .love {
     display: inline-block;
@@ -35,8 +43,8 @@
     position: absolute;
     width: 3.5rem;
     top: -1.85rem;
-    height: 3.5rem; 
-    border-radius: 100% 100% 0 0 ;
+    height: 3.5rem;
+    border-radius: 100% 100% 0 0;
     border-bottom: none;
     border-left: none;
     border-right: none;
@@ -55,6 +63,12 @@
 //限制列表的线不覆盖住工具栏
 #tool-bar {
     z-index: 20;
+    //a 标签的icon的字体
+    & a .icon  {
+        font-size: 1.1rem;
+        height: 1.1rem;
+        padding: 0;
+    }
 }
 
 .love-external {
@@ -62,8 +76,8 @@
         font-size: 0.5rem;
     }
 }
+
 #loveBtn {
     height: 0.5rem;
     padding: 0;
 }
-

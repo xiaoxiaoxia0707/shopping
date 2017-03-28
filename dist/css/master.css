@@ -2,6 +2,9 @@
 .shopping-content .swiper-container {
   margin: 0;
 }
+.shopping-content .list-block ul:before {
+  background-color: #e01a57;
+}
 .news-media-list {
   margin: 0;
 }

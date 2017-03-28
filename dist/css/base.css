@@ -1,14 +1,19 @@
 .branchOrg-content,
 .activity-content,
 .organize-content {
-  margin-top: 3rem;
+  margin-top: 2.25rem;
+}
+.branchOrg-content .list-block ul:after,
+.activity-content .list-block ul:after,
+.organize-content .list-block ul:after {
+  background-color: #e01a57;
 }
 .searchbar {
   height: 2.25rem;
-  font-size: 0.85rem;
+  font-size: 0.75rem;
 }
 .searchbar .icon {
-  font-size: 0.85rem;
+  font-size: 0.75rem;
 }
 .searchbar .searchbar-address {
   float: left;
@@ -22,6 +27,9 @@
 .searchbar .search-input {
   padding-top: 0.375rem;
 }
+.list-block ul:after {
+  background-color: #f7f7f8;
+}
 .love {
   display: inline-block;
   background-color: #f7f7f8;
@@ -33,7 +41,7 @@
   width: 3.5rem;
   top: -1.85rem;
   height: 3.5rem;
-  border-radius: 100% 100% 0 0 ;
+  border-radius: 100% 100% 0 0;
   border-bottom: none;
   border-left: none;
   border-right: none;
@@ -50,6 +58,11 @@
 }
 #tool-bar {
   z-index: 20;
+}
+#tool-bar a .icon {
+  font-size: 1.1rem;
+  height: 1.1rem;
+  padding: 0;
 }
 .love-external span {
   font-size: 0.5rem;

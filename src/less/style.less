@@ -1,72 +1,5 @@
-/*爱心家的机构页面*/
-
-//头部内容
-.searchbar {
-    & h1,
-    h3 {
-        line-height: 3rem;
-        color: #fff;
-       
-    }
-    & h1 {
-        float: left;
-         font-size: 1rem;
-    }
-    & h3 {
-        margin: 0;
-        font-weight: normal;
-         font-size: 0.85rem;
-    }
-    //二级机构的头部
-    #return{
-		 line-height: 3rem;
-        color: #fff;
-        font-size: 0.85rem;
-        padding: 0;
-    }
-
-}
-//内容的部分
-.organize-content {
-    background-color: #fff;
-    & #first-col-50 {
-        margin: 0;
-    }
-    & #last-col-50 {
-        margin-left: 8%;
-    }
-    & img {
-        width: 100%;
-    }
-    & .dividing-line {
-        margin: 1rem 0;
-        line-height: 0.05rem;
-        border-left: 6rem solid #ddd;
-        border-right: 6rem solid #ddd;
-        text-align: center;
-    }
-}
-
-/*二级机构*/
-.branchOrg-content {
-	& img {
-		width: 5rem;
-		height: 4rem;
-	}
-	& .item-text {
-		color: gray;
-	}
-	& .item-subtitle {
-		font-size: 0.5rem;
-	}
-	& p {
-		font-size: 0.75rem;
-		text-align: center;
-		color: gray; 
-	}
-}
-/*爱心家活动页面*/
-.activity-content {
+/*爱心家活动与机构页面*/
+#activity-tab {
     & .list-block .item-content {
         padding: 0;
     }
@@ -80,6 +13,47 @@
         width: 2.5rem;
         text-align: center;
         border-radius: 0.1rem;
+    }  
+}
+//机构列表的部分
+#organize-tab {
+    background-color: #fff;
+    & #main-organize {
+        margin: 0 0.5rem 0.5rem 0.5rem;
     }
-   
+    & #first-col-50 {
+        margin: 0;
+    }
+    & #last-col-50 {
+        margin-left: 8%;
+    }
+    & img {
+        width: 100%;
+    }
+    & .dividing-line {
+        margin: 1rem 0;
+        line-height: 0.05rem;
+        border-left: 6rem solid #e01a57;
+        border-right: 6rem solid #e01a57;
+        text-align: center;
+    }
+}
+
+/*二级机构*/
+.branchOrg-content {
+    & img {
+        width: 5rem;
+        height: 4rem;
+    }
+    & .item-text {
+        color: gray;
+    }
+    & .item-subtitle {
+        font-size: 0.5rem;
+    }
+    & p {
+        font-size: 0.75rem;
+        text-align: center;
+        color: gray; 
+    }
 }
