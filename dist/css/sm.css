@@ -974,7 +974,7 @@ a {
   height: 2.5rem;
   padding: 0;
   table-layout: fixed;
-  border-top: 0.05rem solid gray;
+  border-top: 0.05rem solid #808080;
 }
 .bar-tab:before {
   content: '';
