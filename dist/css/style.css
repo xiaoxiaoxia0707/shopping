@@ -1,4 +1,10 @@
 /*爱心家活动与机构页面*/
+.activity-content {
+  margin-top: 2.25rem;
+}
+.activity-content .list-block ul:after {
+  background-color: #e01a57;
+}
 #activity-tab .list-block .item-content {
   padding: 0;
 }
@@ -13,41 +19,21 @@
   text-align: center;
   border-radius: 0.1rem;
 }
-#organize-tab {
-  background-color: #fff;
+#activity-tab .item-title,
+#activity-tab .item-after {
+  font-size: 0.75rem;
 }
 #organize-tab #main-organize {
-  margin: 0 0.5rem 0.5rem 0.5rem;
-}
-#organize-tab #first-col-50 {
   margin: 0;
 }
-#organize-tab #last-col-50 {
-  margin-left: 8%;
-}
-#organize-tab img {
-  width: 100%;
-}
-#organize-tab .dividing-line {
-  margin: 1rem 0;
-  line-height: 0.05rem;
-  border-left: 6rem solid #e01a57;
-  border-right: 6rem solid #e01a57;
-  text-align: center;
-}
-/*二级机构*/
-.branchOrg-content img {
-  width: 5rem;
-  height: 4rem;
-}
-.branchOrg-content .item-text {
-  color: gray;
-}
-.branchOrg-content .item-subtitle {
-  font-size: 0.5rem;
-}
-.branchOrg-content p {
+#main-col-80 .item-title {
   font-size: 0.75rem;
-  text-align: center;
-  color: gray;
+  color: #232326;
+  line-height: 1rem;
+}
+#main-col-80 .item-text {
+  margin-top: 0.5rem;
+}
+#main-col-80 .item-subtitle {
+  margin-top: 0.25rem;
 }

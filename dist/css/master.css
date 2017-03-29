@@ -19,8 +19,12 @@
   width: 100%;
   height: 4rem;
 }
+.news-media-list .item-title {
+  font-size: 0.75rem;
+}
 .news-media-list .item-subtitle {
-  color: gray;
+  font-size: 0.6rem;
+  color: #848689;
 }
 /*个人中心*/
 #person-content {
