@@ -74,56 +74,41 @@
 }
 .apply-content p {
   font-size: 0.75rem;
-  padding: 0.25rem 0.75rem;
+  padding: 0.5rem 0.75rem;
   margin: 0;
 }
-.apply-content .buttons-row,
-.apply-content .buttons-row a {
+.apply-content .buttons-tab,
+.apply-content .buttons-tab a {
   height: 2rem;
   line-height: 2rem;
   font-size: 0.8rem;
 }
-.apply-content .buttons-row .button {
-  border-color: #e01a57;
-  color: #e01a57;
-}
-.apply-content .buttons-row .button.active {
-  background-color: #e01a57;
-  color: #fff;
-}
-#member {
+#member-tab {
   height: 7rem;
 }
-#member .memberBranch {
+#member-tab .memberBranch {
   width: 100%;
   height: 3.5rem;
   text-align: center;
   margin: 0.75rem auto 0rem;
   color: gray;
 }
-#member div {
+#member-tab div {
   width: 20%;
   float: left;
 }
-#member img {
+#member-tab img {
   width: 2.5rem;
   height: 2.5rem;
   line-height: 2.5rem;
   border-radius: 50%;
 }
-#member p {
+#member-tab p {
   font-size: 0.8rem;
   margin: 0.1rem 0 0 0;
   padding: 0;
 }
-.applyBtn {
-  width: 80%;
-  margin: 3rem auto 0rem;
-}
-.applyBtn .button.button-fill {
-  border-radius: 1rem;
-  background: #e01a57;
-  height: 2rem;
-  line-height: 2rem;
-  font-size: 1rem;
+#photo-tab img {
+  height: 8rem;
+  width: 100%;
 }

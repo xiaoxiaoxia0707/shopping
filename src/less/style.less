@@ -8,7 +8,7 @@
     }
 }
 
-//活动列表
+//活动列表,一个在具体机构的活动列表，一个是在爱心家上
 #activity-tab {
     & .list-block .item-content {
         padding: 0;
@@ -98,28 +98,20 @@
     }
     & p {
         font-size: 0.75rem;
-        padding: 0.25rem 0.75rem;
+        padding: 0.5rem 0.75rem;
         margin: 0;
     }
     //tab栏 
-    & .buttons-row,
-    .buttons-row a {
+    & .buttons-tab,
+    .buttons-tab a {
         height: 2rem;
         line-height: 2rem;
         font-size: 0.8rem;
     }
-    & .buttons-row .button {
-        border-color: #e01a57;
-        color: #e01a57;
-    }
-    & .buttons-row .button.active {
-        background-color: #e01a57;
-        color: #fff;
-    }
 }
 
 //成员列表页面
-#member {
+#member-tab {
     height: 7rem;
     & .memberBranch {
         width: 100%;
@@ -145,15 +137,10 @@
     }
 }
 
-//申请加入按钮
-.applyBtn {
-    width: 80%;
-    margin: 3rem auto 0rem;
-    & .button.button-fill {
-        border-radius: 1rem;
-        background: #e01a57;
-        height: 2rem;
-        line-height: 2rem;
-        font-size: 1rem;
+//照片页面
+#photo-tab {
+    img {
+        height: 8rem;
+        width: 100%;
     }
 }
