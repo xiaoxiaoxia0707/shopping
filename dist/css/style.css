@@ -38,25 +38,6 @@
   margin-top: 0.25rem;
 }
 /*资料填写*/
-.filling-bar {
-  background-color: #e01a57;
-}
-.filling-bar .icon,
-.filling-bar h1 {
-  color: #fff;
-  line-height: 2.25rem;
-}
-.filling-bar a {
-  margin-left: 0.5rem;
-}
-.filling-bar .icon {
-  font-size: 0.75rem;
-  padding: 0;
-}
-.filling-bar h1 {
-  text-align: center;
-  font-size: 0.85rem;
-}
 .filling-content .card {
   margin: 0.75rem 0.75rem 0 0.75rem;
   border: 0.05rem solid #777777;
@@ -85,4 +66,64 @@
   font-size: 0.625rem;
   margin: 0.25rem 0.75rem 0.25rem 0.75rem;
   color: #777777;
+}
+/*申请加入机构*/
+.apply-content .active-img img {
+  width: 100%;
+  height: 8rem;
+}
+.apply-content p {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.75rem;
+  margin: 0;
+}
+.apply-content .buttons-row,
+.apply-content .buttons-row a {
+  height: 2rem;
+  line-height: 2rem;
+  font-size: 0.8rem;
+}
+.apply-content .buttons-row .button {
+  border-color: #e01a57;
+  color: #e01a57;
+}
+.apply-content .buttons-row .button.active {
+  background-color: #e01a57;
+  color: #fff;
+}
+#member {
+  height: 7rem;
+}
+#member .memberBranch {
+  width: 100%;
+  height: 3.5rem;
+  text-align: center;
+  margin: 0.75rem auto 0rem;
+  color: gray;
+}
+#member div {
+  width: 20%;
+  float: left;
+}
+#member img {
+  width: 2.5rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  border-radius: 50%;
+}
+#member p {
+  font-size: 0.8rem;
+  margin: 0.1rem 0 0 0;
+  padding: 0;
+}
+.applyBtn {
+  width: 80%;
+  margin: 3rem auto 0rem;
+}
+.applyBtn .button.button-fill {
+  border-radius: 1rem;
+  background: #e01a57;
+  height: 2rem;
+  line-height: 2rem;
+  font-size: 1rem;
 }

@@ -1,13 +1,25 @@
 /*确定订单的页面*/
+
 //地址卡片
 .address-card {
     margin: 0;
-    & .item-inner {
-        margin-top: 0.5rem;
-        font-size: 0.9rem;
+    & .card-content-inner {
+        padding: 0;
+        height: 3.8rem;
+    }
+    & .card-content-inner .list-block {
+        margin: 0;
+        padding: 0.75rem;
+    }
+    & .list-block .media-list {
+        height: 2.5rem;
+    }
+    & .list-block.media-list .item-inner,
+    .list-block .item-content {
+        padding: 0;
     }
     & .item-subtitle {
-        font-size: 0.75rem;
+        font-size: 0.7rem;
     }
     & span {
         background-color: #e01a57;
@@ -16,6 +28,10 @@
     & .item-title {
         color: #000000;
         font-weight: bold;
+        font-size: 0.75rem;
+        height: 1rem;
+        line-height: 1rem;
+        margin-bottom: 0.25rem;
     }
 }
 
@@ -23,14 +39,16 @@
 .produce-card {
     & .card-content .item-inner,
     li.distribution-li {
-        margin-top: 0.5rem;
-        font-size: 1rem;
+        font-size: 0.8rem;
         line-height: 1rem;
     }
     & .item-subtitle,
     .item-text {
-        font-size: 0.85rem;
+        font-size: 0.75rem;
         margin-top: 0.25rem;
+    }
+    & .item-title {
+        font-size: 0.7rem;
     }
     & img {
         height: 4rem;
@@ -42,23 +60,29 @@
     & .card-header.item-inner {
         width: 80%;
     }
-    
 }
+
 //订单详情的列表
 #order-list-block {
-     & span {
+    & span {
         color: #e01a57;
     }
     & .item-inner {
-    	margin:0;
-    	white-space: nowrap;
+        margin: 0;
+        white-space: nowrap;
     }
-
+    & .item-inner, input {
+        font-size: 0.75rem;
+    }
 }
+
+ .list-block ul:after {
+    background-color: #e7e7e7 !important;
+}
+
 //下单按钮
 .order-bar-tab {
-
-	& h4{
+    & h4 {
         float: left;
         margin: 0 0 0 25%;
         color: #e01a57;
@@ -72,6 +96,6 @@
         height: 100%;
         background-color: #e01a57;
         color: #fff;
-       line-height: 2.5rem;
+        line-height: 2.5rem;
     }
 }

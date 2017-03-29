@@ -2,12 +2,23 @@
 .address-card {
   margin: 0;
 }
-.address-card .item-inner {
-  margin-top: 0.5rem;
-  font-size: 0.9rem;
+.address-card .card-content-inner {
+  padding: 0;
+  height: 3.8rem;
+}
+.address-card .card-content-inner .list-block {
+  margin: 0;
+  padding: 0.75rem;
+}
+.address-card .list-block .media-list {
+  height: 2.5rem;
+}
+.address-card .list-block.media-list .item-inner,
+.address-card .list-block .item-content {
+  padding: 0;
 }
 .address-card .item-subtitle {
-  font-size: 0.75rem;
+  font-size: 0.7rem;
 }
 .address-card span {
   background-color: #e01a57;
@@ -16,17 +27,23 @@
 .address-card .item-title {
   color: #000000;
   font-weight: bold;
+  font-size: 0.75rem;
+  height: 1rem;
+  line-height: 1rem;
+  margin-bottom: 0.25rem;
 }
 .produce-card .card-content .item-inner,
 .produce-card li.distribution-li {
-  margin-top: 0.5rem;
-  font-size: 1rem;
+  font-size: 0.8rem;
   line-height: 1rem;
 }
 .produce-card .item-subtitle,
 .produce-card .item-text {
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   margin-top: 0.25rem;
+}
+.produce-card .item-title {
+  font-size: 0.7rem;
 }
 .produce-card img {
   height: 4rem;
@@ -44,6 +61,13 @@
 #order-list-block .item-inner {
   margin: 0;
   white-space: nowrap;
+}
+#order-list-block .item-inner,
+#order-list-block input {
+  font-size: 0.75rem;
+}
+.list-block ul:after {
+  background-color: #e7e7e7 !important;
 }
 .order-bar-tab h4 {
   float: left;
