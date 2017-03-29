@@ -37,3 +37,52 @@
 #main-col-80 .item-subtitle {
   margin-top: 0.25rem;
 }
+/*资料填写*/
+.filling-bar {
+  background-color: #e01a57;
+}
+.filling-bar .icon,
+.filling-bar h1 {
+  color: #fff;
+  line-height: 2.25rem;
+}
+.filling-bar a {
+  margin-left: 0.5rem;
+}
+.filling-bar .icon {
+  font-size: 0.75rem;
+  padding: 0;
+}
+.filling-bar h1 {
+  text-align: center;
+  font-size: 0.85rem;
+}
+.filling-content .card {
+  margin: 0.75rem 0.75rem 0 0.75rem;
+  border: 0.05rem solid #777777;
+  font-size: 0.75rem;
+}
+.filling-content .card-header,
+.filling-content .card-footer {
+  border-bottom: 0.05rem solid #777777;
+}
+.filling-content .card-footer,
+.filling-content .card-footer .item-inner {
+  height: 6rem;
+}
+.filling-content .item-content,
+.filling-content textarea,
+.filling-content .list-block input[type="text"],
+.filling-content .list-block input[type="number"] {
+  font-size: 0.75rem;
+}
+.filling-content .card-footer .item-input {
+  padding: 0;
+  height: 6.5rem;
+  font-size: 0.75rem;
+}
+.filling-content p {
+  font-size: 0.625rem;
+  margin: 0.25rem 0.75rem 0.25rem 0.75rem;
+  color: #777777;
+}

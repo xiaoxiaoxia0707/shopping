@@ -36,10 +36,10 @@
         margin: 0;
     }
 }
+
 //机构页面在内容部分的主要内容字体的设置
 #main-col-80 {
-
-    & .item-title  {
+    & .item-title {
         font-size: 0.75rem;
         color: #232326;
         line-height: 1rem;
@@ -48,6 +48,63 @@
         margin-top: 0.5rem;
     }
     & .item-subtitle {
-         margin-top: 0.25rem;
+        margin-top: 0.25rem;
+    }
+}
+
+
+/*资料填写*/
+
+//头部内容
+.filling-bar {
+    background-color: #e01a57;
+    & .icon,
+    h1 {
+        color: #fff;
+        line-height: 2.25rem;
+    }
+    & a {
+        margin-left: 0.5rem;
+    }
+    & .icon {
+        font-size: 0.75rem;
+        padding: 0;
+    }
+    & h1 {
+        text-align: center;
+        font-size: 0.85rem;
+    }
+}
+
+//主要内容部分
+.filling-content {
+    & .card {
+        margin: 0.75rem 0.75rem 0 0.75rem;
+        border: 0.05rem solid #777777;
+        font-size: 0.75rem;
+    }
+    & .card-header,
+    .card-footer {
+        border-bottom: 0.05rem solid #777777;
+    }
+    & .card-footer,
+    .card-footer .item-inner {
+        height: 6rem;
+    }
+    & .item-content,
+    textarea,
+    .list-block input[type="text"],
+    .list-block input[type="number"] {
+        font-size: 0.75rem;
+    }
+    & .card-footer .item-input {
+        padding: 0;
+        height: 6.5rem;
+        font-size: 0.75rem;
+    }
+    & p {
+        font-size: 0.625rem;
+        margin: 0.25rem 0.75rem 0.25rem 0.75rem;
+        color: #777777;
     }
 }
