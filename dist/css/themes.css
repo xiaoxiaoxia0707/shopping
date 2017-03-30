@@ -112,6 +112,9 @@
   background-color: #fff;
   margin: 0;
 }
+.joinGroup-content .card:first-child {
+  margin: 0;
+}
 #coupon-card ul {
   padding: 0.75rem;
   margin: 0;
@@ -139,11 +142,12 @@
   width: 100%;
 }
 #coupon-card ul li div p {
-  margin: 0 ;
+  margin: 0;
   font-size: 0.5rem;
   float: left;
   color: #fff;
   line-height: 1.3rem;
+  white-space: nowrap;
 }
 #coupon-card ul li div p:last-child {
   float: right;
@@ -153,7 +157,7 @@
   border-bottom: 1px dashed #000;
 }
 #coupon-card .item-title {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   color: #fff;
   text-align: center;
 }
