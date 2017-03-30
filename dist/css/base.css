@@ -40,8 +40,11 @@
   color: #fff;
   line-height: 2.25rem;
 }
-.bar-nav a {
+.bar-nav a:first-child {
   margin-left: 0.5rem;
+}
+.bar-nav a:last-child {
+  margin-right: 0.75rem;
 }
 .bar-nav .icon {
   font-size: 0.75rem;
@@ -50,9 +53,6 @@
 .bar-nav h1 {
   text-align: center;
   font-size: 0.85rem;
-}
-.list-block ul:after {
-  background-color: #e01a57;
 }
 #nav-col-20 {
   width: 3.5rem;

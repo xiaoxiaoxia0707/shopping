@@ -1,11 +1,12 @@
 /*商城首页*/
+
 //给每个content加下高度，才能滑动
 .shopping-content {
     & .swiper-container {
         margin: 0;
     }
     & .list-block ul:before {
-        background-color: #e01a57;
+        background-color: #444444;
     }
 }
 
@@ -29,16 +30,18 @@
     }
     //信息里面的副标题
     & .item-subtitle {
-       font-size: 0.6rem;
+        font-size: 0.6rem;
         color: #848689;
     }
 }
 
 
 /*个人中心*/
+
 #person-content {
     margin: 0;
 }
+
 //个人信息
 .information-card {
     margin: 0rem;
@@ -51,6 +54,11 @@
     }
     & .list-block.media-list .item-media {
         padding: 2rem 0 2rem 0.25rem;
+    }
+    & .icon {
+        color: #fff;
+        font-size: 1rem;
+        float: right;
     }
     & .list-block.media-list .item-inner {
         padding-top: 2.5rem;
@@ -83,7 +91,7 @@
         padding: 0;
     }
     & .list-block .item-link .item-inner {
-       margin: 0 0.75rem;
+        margin: 0 0.75rem;
     }
     & .card-content {
         height: 5rem;
@@ -109,9 +117,6 @@
 }
 
 .tool-card {
-    & .card-content div .icon {
-        font-size: 1.4rem;
-    }
     & .card-content div span {
         width: 2.5rem;
         height: 2.5rem;
@@ -121,19 +126,104 @@
     }
     & #purchaseBtn {
         background-color: #c94866;
+        font-size: 1rem;
     }
     & #mechanismBtn {
         background-color: #4a68c8;
+        font-size: 1rem;
     }
     & #activityBtn {
         background-color: #e8892d;
+        font-size: 1.4rem;
     }
     & #bindingBtn {
         background-color: #1bb579;
+        font-size: 1.2rem;
     }
     & .card-content div p {
         font-size: 0.8rem;
         margin: 0.5rem 0 0 0;
         ;
+    }
+}
+
+
+/*选择地区页面*/
+
+//搜索与定位部分
+.area-content {
+    //搜索栏内容
+    & .current-location {
+        width: 100%;
+        height: 5rem;
+        background-color: #fff;
+    }
+    & .list-block ul:after{
+        background-color: #e7e7e7;
+    }
+}
+
+.current-location {
+    & .content-padded {
+        margin: 0;
+        height: 3rem;
+        padding: 0.5rem 0.75rem 0.5rem 0.75rem;
+        border-bottom: 0.05rem solid #e7e7e7;
+    }
+    & .area-searchbar {
+        font-size: 0.75rem;
+        padding: 0;
+        height: 2rem;
+    }
+    & .area-searchbar .search-input {
+        padding: 0;
+        width: 100%;
+         color: #e7e7e7;
+    }
+    & .search-input input {
+        border: none;
+        background-color: #999999;
+    }
+    & .area-searchbar input {
+        height: 2rem;
+        border-radius: 0.25rem;
+    }
+    & .icon{
+        top: 55%;
+        color:#e7e7e7
+    }
+    & p {
+        margin: 0;
+        font-size: 0.75rem;
+        line-height: 2rem;
+        margin-left: 0.75rem;
+    }
+}
+//地区的信息状态
+.area-information {
+    height: 10rem;
+    padding: 0 0.75rem;
+    border-bottom: 0.05rem solid #999;
+    & div{
+        height: 4.5rem;
+    }
+    & p {
+        font-size: 0.75rem;
+        margin-bottom: 0.75rem;
+    }
+    & div div{
+        width: 4.5rem;
+        height: 2rem;
+        text-align: center;
+        line-height: 2rem;
+        border: 0.05rem solid #999999;
+        border-radius: 0.1rem;
+        background-color: #fff;
+        font-size: 0.75rem;
+        float: left;
+        margin-right: 1.6rem;
+    }
+    & div div:last-child {
+        margin :0;
     }
 }

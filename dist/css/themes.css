@@ -1,0 +1,179 @@
+/*拼团页面*/
+.group-content #joinGroup-tab .card:first-child {
+  margin: 0;
+}
+#joinGroup-tab .card-header,
+.joinGroup-content .card-header {
+  background-image: url("../images/group-1-1080x447.png");
+  background-size: 100% 8rem;
+  width: 100%;
+  height: 8rem;
+}
+#joinGroup-tab .card-header div,
+.joinGroup-content .card-header div {
+  width: 30%;
+  height: 2.25rem;
+  margin-left: 70%;
+  background-color: #e01a57;
+  opacity: 0.8;
+  border-radius: 0.2rem 0 0 0;
+}
+#joinGroup-tab .card-header div p,
+.joinGroup-content .card-header div p {
+  color: #fff;
+  font-size: 0.65rem;
+  line-height: 1.1rem;
+  height: 1.1rem;
+  margin: 0;
+  text-align: center;
+}
+#joinGroup-tab .card-header div span,
+.joinGroup-content .card-header div span {
+  background-color: #fff;
+  color: #e01a57;
+}
+#joinGroup-tab .card-content-inner,
+.joinGroup-content .card-content-inner {
+  padding: 0.5rem 0.75rem;
+}
+#joinGroup-tab .card-content-inner p,
+.joinGroup-content .card-content-inner p {
+  font-size: 0.75rem;
+}
+#joinGroup-tab #purchase-card-footer a,
+.joinGroup-content #purchase-card-footer a {
+  margin: 0.5rem 0.75rem;
+  line-height: 1rem;
+  height: 1rem;
+  font-size: 0.65rem;
+}
+#joinGroup-tab #purchase-card-footer a:first-child span,
+.joinGroup-content #purchase-card-footer a:first-child span {
+  text-decoration: line-through;
+}
+#joinGroup-tab #purchase-card-footer a:last-child span,
+.joinGroup-content #purchase-card-footer a:last-child span {
+  color: #e01a57;
+}
+#joinGroup-tab #join-card-footer div,
+.joinGroup-content #join-card-footer div {
+  width: 80%;
+  height: 2rem;
+  border: 0.05rem solid #e01a57;
+  margin: 0.25rem auto 0.75rem;
+  border-radius: 0.5rem;
+}
+#joinGroup-tab #join-card-footer h6,
+.joinGroup-content #join-card-footer h6 {
+  margin: 0;
+  float: left;
+  color: #fff;
+  background-color: #e01a57;
+  width: 10%;
+  text-align: center;
+}
+#joinGroup-tab #join-card-footer p,
+.joinGroup-content #join-card-footer p {
+  font-size: 0.65rem;
+  margin: 0;
+  margin-left: 5%;
+  line-height: 2rem;
+  float: left;
+}
+#joinGroup-tab #join-card-footer p:first-child,
+.joinGroup-content #join-card-footer p:first-child {
+  margin-left: 8%;
+}
+#joinGroup-tab #join-card-footer div div,
+.joinGroup-content #join-card-footer div div {
+  float: right;
+  width: 35%;
+  border: none;
+  margin: 0;
+  background-color: #e01a57;
+  color: #fff;
+  height: 1.9rem;
+  border-radius: 0 0.45rem 0.45rem 0;
+}
+#joinGroup-tab #join-card-footer div span,
+.joinGroup-content #join-card-footer div span {
+  float: left;
+  font-size: 1rem;
+  line-height: 2rem;
+  margin-left: 2%;
+  color: #fff;
+}
+/*参团二级页面*/
+.joinGroup-content img {
+  width: 100%;
+}
+.joinGroup-content #coupon-card {
+  height: 14rem;
+  background-color: #fff;
+  margin: 0;
+}
+#coupon-card ul {
+  padding: 0.75rem;
+  margin: 0;
+  height: 11.8rem;
+  list-style-type: none;
+}
+#coupon-card ul li {
+  height: 4.8rem;
+  width: 48%;
+  float: left;
+}
+#coupon-card ul li:first-child {
+  background-color: #9999cc;
+}
+#coupon-card ul li:nth-last-child(2) {
+  float: right;
+  background-color: #33ccff;
+}
+#coupon-card ul li:last-child {
+  margin-top: 0.75rem;
+  background-color: #ffcc00;
+}
+#coupon-card ul li div {
+  margin: 0;
+  width: 100%;
+}
+#coupon-card ul li div p {
+  margin: 0 ;
+  font-size: 0.5rem;
+  float: left;
+  color: #fff;
+  line-height: 1.3rem;
+}
+#coupon-card ul li div p:last-child {
+  float: right;
+}
+#coupon-card .item-text {
+  height: 1.3rem;
+  border-bottom: 1px dashed #000;
+}
+#coupon-card .item-title {
+  font-size: 1.5rem;
+  color: #fff;
+  text-align: center;
+}
+#coupon-card .item-subtitle {
+  text-align: center;
+  font-size: 0.5rem;
+  color: #5f646e;
+}
+#coupon-card .card-footer {
+  margin: 0;
+  color: #fff;
+}
+#coupon-card .term-div {
+  font-size: 0.75rem;
+  width: 80%;
+  line-height: 1.2rem;
+  height: 1.2rem;
+  background-color: #cccccc;
+  color: #333333;
+  text-align: center;
+  margin: 0.5rem auto;
+  border-radius: 0.05rem;
+}
