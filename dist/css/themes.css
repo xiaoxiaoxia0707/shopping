@@ -1,8 +1,6 @@
 /*拼团页面*/
-.group-content #joinGroup-tab .card:first-child {
-  margin: 0;
-}
 #joinGroup-tab .card-header,
+#openGroup-tab .card-header,
 .joinGroup-content .card-header {
   background-image: url("../images/group-1-1080x447.png");
   background-size: 100% 8rem;
@@ -10,6 +8,7 @@
   height: 8rem;
 }
 #joinGroup-tab .card-header div,
+#openGroup-tab .card-header div,
 .joinGroup-content .card-header div {
   width: 30%;
   height: 2.25rem;
@@ -19,6 +18,7 @@
   border-radius: 0.2rem 0 0 0;
 }
 #joinGroup-tab .card-header div p,
+#openGroup-tab .card-header div p,
 .joinGroup-content .card-header div p {
   color: #fff;
   font-size: 0.65rem;
@@ -28,19 +28,23 @@
   text-align: center;
 }
 #joinGroup-tab .card-header div span,
+#openGroup-tab .card-header div span,
 .joinGroup-content .card-header div span {
   background-color: #fff;
   color: #e01a57;
 }
 #joinGroup-tab .card-content-inner,
+#openGroup-tab .card-content-inner,
 .joinGroup-content .card-content-inner {
   padding: 0.5rem 0.75rem;
 }
 #joinGroup-tab .card-content-inner p,
+#openGroup-tab .card-content-inner p,
 .joinGroup-content .card-content-inner p {
   font-size: 0.75rem;
 }
 #joinGroup-tab #purchase-card-footer a,
+#openGroup-tab #purchase-card-footer a,
 .joinGroup-content #purchase-card-footer a {
   margin: 0.5rem 0.75rem;
   line-height: 1rem;
@@ -48,14 +52,17 @@
   font-size: 0.65rem;
 }
 #joinGroup-tab #purchase-card-footer a:first-child span,
+#openGroup-tab #purchase-card-footer a:first-child span,
 .joinGroup-content #purchase-card-footer a:first-child span {
   text-decoration: line-through;
 }
 #joinGroup-tab #purchase-card-footer a:last-child span,
+#openGroup-tab #purchase-card-footer a:last-child span,
 .joinGroup-content #purchase-card-footer a:last-child span {
   color: #e01a57;
 }
 #joinGroup-tab #join-card-footer div,
+#openGroup-tab #join-card-footer div,
 .joinGroup-content #join-card-footer div {
   width: 80%;
   height: 2rem;
@@ -64,6 +71,7 @@
   border-radius: 0.5rem;
 }
 #joinGroup-tab #join-card-footer h6,
+#openGroup-tab #join-card-footer h6,
 .joinGroup-content #join-card-footer h6 {
   margin: 0;
   float: left;
@@ -71,8 +79,10 @@
   background-color: #e01a57;
   width: 10%;
   text-align: center;
+  border-radius: 0.4rem 0 0 0;
 }
 #joinGroup-tab #join-card-footer p,
+#openGroup-tab #join-card-footer p,
 .joinGroup-content #join-card-footer p {
   font-size: 0.65rem;
   margin: 0;
@@ -81,10 +91,12 @@
   float: left;
 }
 #joinGroup-tab #join-card-footer p:first-child,
+#openGroup-tab #join-card-footer p:first-child,
 .joinGroup-content #join-card-footer p:first-child {
   margin-left: 8%;
 }
 #joinGroup-tab #join-card-footer div div,
+#openGroup-tab #join-card-footer div div,
 .joinGroup-content #join-card-footer div div {
   float: right;
   width: 35%;
@@ -96,6 +108,7 @@
   border-radius: 0 0.45rem 0.45rem 0;
 }
 #joinGroup-tab #join-card-footer div span,
+#openGroup-tab #join-card-footer div span,
 .joinGroup-content #join-card-footer div span {
   float: left;
   font-size: 1rem;

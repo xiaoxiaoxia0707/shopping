@@ -8,3 +8,197 @@
   margin-top: 0.5rem;
   color: #e01a57;
 }
+/* 产品详情页面*/
+.product-bar h1 {
+  white-space: nowrap;
+}
+.product-content {
+  margin-top: 2.25rem;
+}
+.product-content .swiper-container {
+  margin: 0;
+  height: 14rem;
+}
+.product-content img {
+  height: 14rem;
+}
+.product-content .product-card {
+  margin: 0;
+}
+.product-content .please-card .item-inner {
+  margin: 0;
+  font-size: 0.85rem;
+}
+.product-content .promotion-list-block {
+  line-height: 2.1rem;
+}
+.product-content .buttons-tab {
+  margin-top: 0.75rem;
+}
+.product-content .buttons-tab .button.active {
+  z-index: 1;
+}
+.product-card .list-block {
+  width: 100%;
+}
+.product-card .list-block .item-title {
+  white-space: pre-wrap;
+}
+.product-card .item-inner {
+  padding: 0.5rem 0.75rem;
+}
+.product-card .item-title {
+  font-size: 0.75rem;
+}
+.product-card .item-title-row .item-title {
+  color: #e01a57;
+  font-size: 1.1rem;
+}
+.product-card .item-title-row {
+  margin-top: 0.25rem;
+}
+.product-card .item-subtitle {
+  color: #999;
+}
+.promotion-card .list-block .item-content {
+  min-height: 1.5rem;
+}
+.promotion-card span:first-child {
+  float: left;
+  font-size: 0.5rem;
+  border: 0.05rem solid #e01a57;
+  color: #e01a57;
+}
+.promotion-card span:last-child {
+  margin-left: 1rem;
+  font-size: 0.65rem;
+}
+.tabs {
+  z-index: 1;
+}
+.tabs #goodsDet-tab img {
+  background-color: #fff;
+  padding: 0.75rem;
+  height: 15rem;
+  width: 100%;
+}
+.tabs #userEva-tab img {
+  width: 10%;
+  height: 1rem;
+  float: left;
+  border-radius: 50%;
+}
+.tabs #userEva-tab span {
+  font-size: 0.75rem;
+  float: left;
+  margin-left: 0.5rem;
+}
+.tabs #userEva-tab .item-after {
+  margin-top: 0.5rem;
+  float: right;
+  font-size: 0.5rem;
+}
+.tabs #userEva-tab .item-inner {
+  padding: 0;
+}
+.tabs #userEva-tab li {
+  padding: 0.75rem;
+}
+.tabs #moreRec-tab .moreRec {
+  background-color: #fff;
+  height: 100%;
+}
+.tabs #moreRec-tab .card {
+  margin: 0;
+  padding-top: 0.75rem;
+  height: 12rem;
+  box-shadow: none;
+}
+.tabs #moreRec-tab .card-content {
+  width: 44%;
+  height: 11.5rem;
+  float: left;
+  margin: 0 0.5rem;
+}
+.tabs #moreRec-tab .item-text {
+  margin-top: 0.5rem;
+}
+.tabs #moreRec-tab .item-subtitle {
+  color: #e01a57;
+  font-size: 0.75rem;
+}
+.tabs #moreRec-tab img {
+  width: 100%;
+  height: 7rem;
+}
+.bar-tab .tab-item::nth-child(1),
+.bar-tab .tab-item::nth-child(2) {
+  width: 22%;
+}
+.bar-tab .tab-item::nth-child(3),
+.bar-tab .tab-item::nth-child(4) {
+  color: #fff;
+}
+#joinBtn {
+  color: #fff;
+  background-color: #ff9402;
+}
+#purchaseBtn {
+  color: #fff;
+  background-color: #ff5000;
+}
+/*购物车*/
+.cart-content .list-block {
+  margin-top: 0.75rem;
+}
+.cart-content .list-block .item-content {
+  padding-right: 0.25rem;
+}
+.cart-content ul li {
+  background-color: #fff;
+}
+.cart-content ul li img {
+  width: 25%;
+  height: 5rem;
+  margin: 2% 4%;
+}
+.cart-content ul li .item-text {
+  font-size: 0.75rem;
+}
+.cart-content ul li .item-subtitle {
+  font-size: 0.5rem;
+  color: #999;
+  margin-top: 0.25rem;
+}
+.cart-content .item-title-row {
+  height: 2rem;
+}
+.cart-content .item-title {
+  width: 3rem;
+  float: left;
+  font-size: 0.85rem;
+  color: #e01a57;
+  line-height: 2rem;
+}
+.cart-content .item-after {
+  float: right;
+  width: 5rem;
+  height: 2rem;
+  margin: 0;
+  max-height: 2rem;
+}
+.cart-content a {
+  height: 1rem;
+  width: 2rem;
+  margin-top: 0.5rem;
+  border: 0.05rem solid #999;
+  text-align: center;
+  line-height: 1rem;
+}
+.cart-content .list-block input[type="number"] {
+  text-align: center;
+  border: 0.05rem solid #999;
+  margin-top: 0.5rem;
+  height: 1rem;
+  font-size: 0.75rem;
+}

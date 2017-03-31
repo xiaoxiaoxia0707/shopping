@@ -1,10 +1,11 @@
-
 //设置content的滑动拉伸
 .content {
     padding-bottom: 3rem;
 }
+
 //分类页面与爱心家机构、活动页面的设置
-.class-branch-content,.activity-content {
+.class-branch-content,
+.activity-content {
     margin-top: 2.25rem;
     & .content-padded,
     .col-20,
@@ -12,6 +13,7 @@
         margin: 0;
     }
 }
+
 //头部搜索的设置
 .searchbar {
     height: 2.25rem;
@@ -44,7 +46,9 @@
         margin-left: 0.5rem;
     }
     & a:last-child {
-        margin-right: 0.75rem;
+        margin-right: 0.5rem;
+        line-height: 2.25rem;
+        color: #fff;
     }
     & .icon {
         font-size: 0.75rem;
@@ -100,7 +104,9 @@
     }
 }
 
+
 /*这个是工具栏内容*/
+
 //工具栏的圆
 .love {
     display: inline-block;
@@ -121,7 +127,7 @@
         height: 3rem;
         width: 3rem;
     }
-    & .icon {
+    & div.icon {
         padding: 0;
         line-height: 3rem;
         font-size: 2.5rem;
@@ -133,7 +139,7 @@
 #tool-bar {
     z-index: 20;
     //a 标签的icon的字体
-    & a .icon  {
+    & span.icon {
         font-size: 1.1rem;
         height: 1.1rem;
         padding: 0;
@@ -150,10 +156,32 @@
     height: 0.5rem;
     padding: 0;
 }
+//工具栏的支付单按钮与购物车的结算
+.order-bar-tab,.account-bar-tab{
+    & h4 {
+        float: left;
+        margin: 0 0 0 25%;
+        color: #e01a57;
+        width: 45%;
+        line-height: 2.5rem;
+    }
+    & .orderBtn,.accountBtn {
+        text-align: center;
+        float: right;
+        width: 30%;
+        height: 100%;
+        background-color: #e01a57;
+        color: #fff;
+        line-height: 2.5rem;
+    }
+}
 
 /*关于底部按钮*/
+
 //申请加入的按钮,资料填写按钮
-.applyBtn,.submitBtn {
+.applyBtn,
+.submitBtn,
+.bindBtn {
     width: 80%;
     margin: 3rem auto 0rem;
     & .button.button-fill {
@@ -162,5 +190,31 @@
         height: 2rem;
         line-height: 2rem;
         font-size: 1rem;
+    }
+}
+
+/*绑定手机页面与活动报名支付页面*/
+
+//验证码
+.bind-content .card-footer,
+.activityPay-content .card-footer {
+
+    & .list-block .item-content {
+        padding-right: 0;
+    }
+    & span {
+        width: 5.5rem;
+        height: 2.25rem;
+        background-color: #e01a57;
+        text-align: center;
+        line-height: 2.25rem;
+        color: #fff;
+        float: right;
+    }
+}
+.bind-content,.activityPay-content {
+    & .list-block .item-title.label {
+        text-align: right;
+        width: 3.5rem;
     }
 }

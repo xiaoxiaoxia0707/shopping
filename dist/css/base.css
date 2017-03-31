@@ -44,7 +44,9 @@
   margin-left: 0.5rem;
 }
 .bar-nav a:last-child {
-  margin-right: 0.75rem;
+  margin-right: 0.5rem;
+  line-height: 2.25rem;
+  color: #fff;
 }
 .bar-nav .icon {
   font-size: 0.75rem;
@@ -113,7 +115,7 @@
   height: 3rem;
   width: 3rem;
 }
-.love .icon {
+.love div.icon {
   padding: 0;
   line-height: 3rem;
   font-size: 2.5rem;
@@ -122,7 +124,7 @@
 #tool-bar {
   z-index: 20;
 }
-#tool-bar a .icon {
+#tool-bar span.icon {
   font-size: 1.1rem;
   height: 1.1rem;
   padding: 0;
@@ -134,17 +136,59 @@
   height: 0.5rem;
   padding: 0;
 }
+.order-bar-tab h4,
+.account-bar-tab h4 {
+  float: left;
+  margin: 0 0 0 25%;
+  color: #e01a57;
+  width: 45%;
+  line-height: 2.5rem;
+}
+.order-bar-tab .orderBtn,
+.account-bar-tab .orderBtn,
+.order-bar-tab .accountBtn,
+.account-bar-tab .accountBtn {
+  text-align: center;
+  float: right;
+  width: 30%;
+  height: 100%;
+  background-color: #e01a57;
+  color: #fff;
+  line-height: 2.5rem;
+}
 /*关于底部按钮*/
 .applyBtn,
-.submitBtn {
+.submitBtn,
+.bindBtn {
   width: 80%;
   margin: 3rem auto 0rem;
 }
 .applyBtn .button.button-fill,
-.submitBtn .button.button-fill {
+.submitBtn .button.button-fill,
+.bindBtn .button.button-fill {
   border-radius: 1rem;
   background: #e01a57;
   height: 2rem;
   line-height: 2rem;
   font-size: 1rem;
+}
+/*绑定手机页面与活动报名支付页面*/
+.bind-content .card-footer .list-block .item-content,
+.activityPay-content .card-footer .list-block .item-content {
+  padding-right: 0;
+}
+.bind-content .card-footer span,
+.activityPay-content .card-footer span {
+  width: 5.5rem;
+  height: 2.25rem;
+  background-color: #e01a57;
+  text-align: center;
+  line-height: 2.25rem;
+  color: #fff;
+  float: right;
+}
+.bind-content .list-block .item-title.label,
+.activityPay-content .list-block .item-title.label {
+  text-align: right;
+  width: 3.5rem;
 }

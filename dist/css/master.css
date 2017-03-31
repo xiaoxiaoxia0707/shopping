@@ -151,7 +151,7 @@
 }
 .current-location .search-input input {
   border: none;
-  background-color: #999999;
+  background-color: #ddd;
 }
 .current-location .area-searchbar input {
   height: 2rem;
