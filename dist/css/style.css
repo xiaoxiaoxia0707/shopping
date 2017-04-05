@@ -112,3 +112,23 @@
   height: 8rem;
   width: 100%;
 }
+/* 申请加入爱心活动页面*/
+.loveActivity-content .card {
+  margin: 0;
+}
+.loveActivity-content .card-header .item-title {
+  margin: 2.25%;
+  font-size: 0.85rem;
+}
+.loveActivity-content img {
+  width: 95%;
+  margin: 0 2.25%;
+  height: 6rem;
+}
+.loveActivity-content .card-content {
+  font-size: 0.75rem;
+}
+.loveActivity-content .card-footer p {
+  font-size: 0.75rem;
+  margin: 2.25%;
+}
