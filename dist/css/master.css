@@ -194,3 +194,10 @@
 .area-information div div:last-child {
   margin: 0;
 }
+/*首页详情页面*/
+.detail-content .card {
+  margin: 0;
+}
+.detail-content p {
+  font-size: 0.85rem;
+}

@@ -360,7 +360,7 @@ body > .photo-browser .toolbar {
   margin: 0 auto;
   position: relative;
   overflow: hidden;
-  margin-top: 3rem;
+  margin-top: 2.25rem;
   height: 10rem;
   /* Fix of Webkit flickering */
   z-index: 1;

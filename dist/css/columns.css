@@ -69,3 +69,37 @@
 .list-block ul:after {
   background-color: #e7e7e7 !important;
 }
+/*所有的订单*/
+.allOrder-content .tabs .card-header .item-title {
+  color: #e01a57;
+  margin-left: 80%;
+  font-size: 0.85rem;
+}
+.allOrder-content .tabs .card-content {
+  background-color: #e7e7e7;
+}
+.allOrder-content .tabs .card-footer {
+  font-size: 0.75rem;
+}
+.allOrder-content .tabs .card-footer .item-subtitle:first-child {
+  margin-left: 60%;
+}
+.allOrder-content .tabs .card-footer .item-subtitle:last-child {
+  margin-right: 0.75rem;
+}
+.allOrder-content .tabs .card-content img {
+  width: 4rem;
+  height: 4rem;
+  margin: 0.5rem;
+  margin-left: 0rem;
+}
+.allOrder-content .tabs .card-content .item-title {
+  font-size: 0.75rem;
+  white-space: normal;
+}
+.allOrder-content .tabs .card-content .item-title-row {
+  margin-top: 1rem;
+}
+.allOrder-content .tabs .card-content .item-subtitle:first-child {
+  color: #e01a57;
+}
