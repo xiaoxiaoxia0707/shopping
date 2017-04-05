@@ -132,3 +132,7 @@
   font-size: 0.75rem;
   margin: 2.25%;
 }
+/*机构页面*/
+.organization-content img {
+  height: 4.5rem;
+}

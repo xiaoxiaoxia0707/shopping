@@ -80,17 +80,17 @@
 #nav-col-20 li.active {
   color: #e01a57;
 }
-#main-col-80 .list-block .item-content,
-#main-col-80 .list-block.media-list .item-media {
+#main-col-75 .list-block .item-content,
+#main-col-75 .list-block.media-list .item-media {
   padding: 0;
 }
-#main-col-80 .list-block .item-content {
+#main-col-75 .list-block .item-content {
   height: 5.5rem;
 }
-#main-col-80 img {
+#main-col-75 img {
   height: 4.5rem;
 }
-#main-col-80 .item-subtitle {
+#main-col-75 .item-subtitle {
   font-size: 0.6rem;
   color: #848689;
 }

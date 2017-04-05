@@ -209,3 +209,34 @@
 .colonelNotice-content p {
   margin: 0.75rem;
 }
+/*我的团购*/
+.groupPurchase-content img {
+  width: 75%;
+  float: left;
+  height: 6rem;
+  margin: 0.75rem 0;
+}
+.groupPurchase-content p {
+  height: 6rem;
+  border: 0.05rem solid #e01a57;
+  margin: 0;
+  float: right;
+  width: 25%;
+  line-height: 6rem;
+  text-align: center;
+  color: #e01a57;
+}
+.groupPurchase-content .list-block .item-media + .item-inner,
+.groupPurchase-content .list-block .item-after {
+  margin: 0;
+  font-size: 0.75rem;
+}
+.groupPurchase-content .list-block .item-after {
+  width: 4rem;
+  text-align: center;
+}
+.groupPurchase-content span {
+  background-color: #e01a57;
+  color: #fff;
+  width: 4rem;
+}

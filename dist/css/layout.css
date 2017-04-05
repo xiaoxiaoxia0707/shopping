@@ -38,6 +38,9 @@
 .product-content .buttons-tab .button.active {
   z-index: 1;
 }
+.bar-nav ~ .content {
+  top: 0;
+}
 .product-card .list-block {
   width: 100%;
 }
