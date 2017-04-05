@@ -62,8 +62,7 @@
   margin: 0;
   white-space: nowrap;
 }
-#order-list-block .item-inner,
-#order-list-block input {
+#order-list-block .item-inner {
   font-size: 0.75rem;
 }
 .list-block ul:after {

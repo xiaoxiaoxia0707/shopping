@@ -151,7 +151,7 @@
 }
 .current-location .search-input input {
   border: none;
-  background-color: #ddd;
+  background-color: #eee;
 }
 .current-location .area-searchbar input {
   height: 2rem;
@@ -159,7 +159,7 @@
 }
 .current-location .icon {
   top: 55%;
-  color: #e7e7e7;
+  color: #a8abb0;
 }
 .current-location p {
   margin: 0;
@@ -168,7 +168,7 @@
   margin-left: 0.75rem;
 }
 .area-information {
-  height: 10rem;
+  height: 5rem;
   padding: 0 0.75rem;
   border-bottom: 0.05rem solid #999;
 }
@@ -200,4 +200,7 @@
 }
 .detail-content p {
   font-size: 0.85rem;
+}
+.detail-content .swiper-container {
+  margin: 0;
 }

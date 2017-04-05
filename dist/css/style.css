@@ -133,6 +133,29 @@
   margin: 2.25%;
 }
 /*机构页面*/
-.organization-content img {
+.organization-content img,
+.activityOrder-content img {
   height: 4.5rem;
+  width: 6rem;
+}
+/*活动订单页面*/
+.activityOrder-content .item-title {
+  font-size: 0.85rem;
+}
+.activityOrder-content .item-text {
+  margin-top: 0.25rem;
+  font-size: 0.75rem;
+}
+.activityOrder-content .item-title-row {
+  margin-top: 0.25rem;
+}
+.activityOrder-content .item-subtitle {
+  font-size: 0.75rem;
+}
+.activityOrder-content span {
+  background-color: #e01a57;
+  color: #fff;
+}
+.activityOrder-content .item-after {
+  font-size: 0.5rem;
 }

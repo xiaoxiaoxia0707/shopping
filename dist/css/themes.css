@@ -1,4 +1,7 @@
 /*拼团页面*/
+.group-content .buttons-tab {
+  margin-top: 2.25rem;
+}
 #joinGroup-tab .card-header,
 #openGroup-tab .card-header,
 .joinGroup-content .card-header {
@@ -194,19 +197,19 @@
   margin: 0.5rem auto;
   border-radius: 0.05rem;
 }
-/*团长须知*/
-.colonelNotice-content .content-block-title {
+/*参团二级页面*/
+#notice-tab .content-block-title {
   margin-top: 0.75rem;
   font-size: 0.85rem;
   white-space: normal;
   line-height: 1rem;
 }
-.colonelNotice-content img {
+#notice-tab img {
   height: 8rem;
   width: 95%;
   margin: 2.5%;
 }
-.colonelNotice-content p {
+#notice-tab p {
   margin: 0.75rem;
 }
 /*我的团购*/

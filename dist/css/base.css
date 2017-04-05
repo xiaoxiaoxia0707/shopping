@@ -42,6 +42,7 @@
 }
 .bar-nav a:first-child {
   margin-left: 0.5rem;
+  color: #fff;
 }
 .bar-nav a:last-child {
   margin-right: 0.5rem;
@@ -80,17 +81,17 @@
 #nav-col-20 li.active {
   color: #e01a57;
 }
-#main-col-75 .list-block .item-content,
-#main-col-75 .list-block.media-list .item-media {
+#main-col-80 .list-block .item-content,
+#main-col-80 .list-block.media-list .item-media {
   padding: 0;
 }
-#main-col-75 .list-block .item-content {
+#main-col-80 .list-block .item-content {
   height: 5.5rem;
 }
-#main-col-75 img {
+#main-col-80 img {
   height: 4.5rem;
 }
-#main-col-75 .item-subtitle {
+#main-col-80 .item-subtitle {
   font-size: 0.6rem;
   color: #848689;
 }

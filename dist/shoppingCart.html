@@ -18,9 +18,15 @@
         <div class="page">
             <!--头部部分 !-->
             <header class="bar bar-nav">
-                <a class="icon icon-left pull-left" href="productDetails.html">返回</a>
+                <a href="productDetails.html">
+                    <button class="button button-link button-nav pull-left">
+                        <span class="icon icon-left"></span> 返回
+                    </button>
+                </a>
+                <button class="button button-link button-nav pull-right" id="editBtn">
+                    编辑
+                </button>
                 <h1 class="title">购物车</h1>
-                <a class="pull-right">编辑</a>
             </header>
             <!--内容部分 !-->
             <div class="content cart-content">
@@ -72,7 +78,7 @@
                             <label class="label-checkbox item-content">
                                 <input type="checkbox" name="checkbox">
                                 <div class="item-media"><i class="icon icon-form-checkbox"></i></div>
-                                <img  src="http://gw.alicdn.com/bao/uploaded/i4/TB1hNO8KpXXXXXYXVXXXXXXXXXX_!!0-item_pic.jpg_200x200q50s150.jpg_.webp">
+                                <img src="http://gw.alicdn.com/bao/uploaded/i4/TB1hNO8KpXXXXXYXVXXXXXXXXXX_!!0-item_pic.jpg_200x200q50s150.jpg_.webp">
                                 <div class="item-inner">
                                     <div class="item-text">秋冬女装韩版宽松显瘦萝卜裤百搭哈伦裤高腰休闲裤九分裤学生裤子</div>
                                     <div class="item-subtitle">颜色分类：黑色;尺寸：均码</div>
@@ -99,6 +105,7 @@
     <script type='text/javascript' src='js/lib/zepto.js' charset='utf-8'></script>
     <script type='text/javascript' src='js/lib/sm.js' charset='utf-8'></script>
     <script type='text/javascript' src='js/lib/sm-extend.js' charset='utf-8'></script>
+    <script type="text/javascript" src="js/shoppingCart.js"></script>
 </body>
 
 </html>

@@ -16,11 +16,17 @@
 <body>
     <div class="page-group">
         <div class="page">
-            <!--头部部分 !-->
-            <header class="bar bar-nav">
-                <a class="icon icon-left pull-left">返回</a>
-                <h1 class="title">拼团</h1>
-                <a class="icon iconfont icon-fenxiang1  pull-right"></a>
+            <!--搜索栏内容 !-->
+            <header class="bar bar-header-secondary">
+                <div class="searchbar">
+                    <a href="selectArea.html">
+                        <div class="searchbar-address">厦门市&nbsp;&nbsp;<span class="icon icon-down"></span></div>
+                    </a>
+                    <div class="search-input">
+                        <label class="icon icon-search" for="search"></label>
+                        <input type="search" id='search' placeholder='请输入商品名称' />
+                    </div>
+                </div>
             </header>
             <!--内容部分 !-->
             <div class="content group-content">
@@ -50,16 +56,18 @@
                                 <a href="#" class="link">参加<span>134</span>人
                                 </a>
                             </div>
-                            <div class="card-footer no-border" id="join-card-footer">
-                                <div>
-                                    <h6>团购</h6>
-                                    <p>最低团购价：￥ 98</p>
+                            <a href="joinGroup.html">
+                                <div class="card-footer no-border" id="join-card-footer">
                                     <div>
-                                        <p>立即参团</p>
-                                        <a href="joinGroup.html"><span class="icon icon-right"></span></a>
+                                        <h6>团购</h6>
+                                        <p>最低团购价：￥ 98</p>
+                                        <div>
+                                            <p>立即参团</p>
+                                            <span class="icon icon-right"></span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="card demo-card-header-pic">
                             <div valign="bottom" class="card-header color-white no-border no-padding">
@@ -79,16 +87,18 @@
                                 <a href="#" class="link">参加<span>134</span>人
                                 </a>
                             </div>
-                            <div class="card-footer no-border" id="join-card-footer">
-                                <div>
-                                    <h6>团购</h6>
-                                    <p>最低团购价：￥ 98</p>
+                            <a href="#">
+                                <div class="card-footer no-border" id="join-card-footer">
                                     <div>
-                                        <p>立即参团</p>
-                                        <a href=""><span class="icon icon-right"></span></a>
+                                        <h6>团购</h6>
+                                        <p>最低团购价：￥ 98</p>
+                                        <div>
+                                            <p>立即参团</p>
+                                            <a href=""><span class="icon icon-right"></span></a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="card demo-card-header-pic">
                             <div valign="bottom" class="card-header color-white no-border no-padding">
