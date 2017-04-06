@@ -1,4 +1,10 @@
 /*分类页面*/
+.class-branch-content .buttons-tab {
+  height: 18rem;
+}
+.class-branch-content .buttons-tab a {
+  height: 2.25rem;
+}
 #main-col-80 .item-text {
   font-size: 0.75rem;
   color: #232326;

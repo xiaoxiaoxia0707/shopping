@@ -18,12 +18,7 @@ $(".bar-tab a").click(function() {
 	$(".bar-tab a").removeClass("active");
     $(this).addClass("active");
 });
-/*分类页面的菜单栏*/
-$("#menu-list-group li").click(function(){
-    $("#menu-list-group li").removeClass("active");
-     $(this).addClass("active");
-    
-})
+
 /* 地区选择页面 */
 $("#area-list-block li .item-title").click(function() {
     $("#location-city").html($(this).html());
