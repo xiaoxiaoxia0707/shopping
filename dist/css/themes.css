@@ -214,20 +214,29 @@
 }
 /*我的团购*/
 .groupPurchase-content img {
-  width: 75%;
-  float: left;
-  height: 6rem;
   margin: 0.75rem 0;
+  width: 75%;
+  height: 4rem;
+  float: left;
+}
+.groupPurchase-content a div {
+  float: right;
+  height: 4rem;
+  width: 25%;
+}
+.groupPurchase-content a div div {
+  background-image: url(../images/circular-181x145.png);
+  background-size: 100% 3rem;
+  height: 3rem;
+  width: 80%;
+  margin: 0.5rem 10%;
 }
 .groupPurchase-content p {
-  height: 6rem;
-  border: 0.05rem solid #e01a57;
+  font-size: 0.75rem;
   margin: 0;
-  float: right;
-  width: 25%;
-  line-height: 6rem;
   text-align: center;
   color: #e01a57;
+  line-height: 3rem;
 }
 .groupPurchase-content .list-block .item-media + .item-inner,
 .groupPurchase-content .list-block .item-after {
@@ -239,6 +248,7 @@
   text-align: center;
 }
 .groupPurchase-content span {
+  border-radius: 0.1rem;
   background-color: #e01a57;
   color: #fff;
   width: 4rem;

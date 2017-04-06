@@ -116,21 +116,25 @@
 .loveActivity-content .card {
   margin: 0;
 }
-.loveActivity-content .card-header .item-title {
+.loveActivity-content .card-header p {
   margin: 2.25%;
-  font-size: 0.85rem;
+  font-size: 0.75rem;
+  color: #e01a57;
+  padding: 0 25% ;
+  white-space: nowrap;
 }
 .loveActivity-content img {
   width: 95%;
   margin: 0 2.25%;
   height: 6rem;
+  border-radius: 0.5rem;
 }
 .loveActivity-content .card-content {
   font-size: 0.75rem;
 }
 .loveActivity-content .card-footer p {
   font-size: 0.75rem;
-  margin: 2.25%;
+  margin: 3%;
 }
 /*机构页面*/
 .organization-content img,
