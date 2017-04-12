@@ -13,13 +13,8 @@ $(".buttons-tab a").click(function() {
 	$(".buttons-tab a").removeClass("active");
     $(this).addClass("active");
 });
-//工具栏首页、捐款、拼图和个人中心的转换
+//工具栏的转换
 $(".bar-tab a").click(function() {
 	$(".bar-tab a").removeClass("active");
     $(this).addClass("active");
 });
-
-/* 地区选择页面 */
-$("#area-list-block li .item-title").click(function() {
-    $("#location-city").html($(this).html());
-})

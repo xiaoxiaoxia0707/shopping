@@ -1,6 +1,11 @@
 .content {
   padding-bottom: 3rem;
 }
+.buttons-tab:after,
+.list-block ul:after,
+.card-header:after {
+  background-color: #444444;
+}
 .class-branch-content,
 .activity-content {
   margin-top: 2.25rem;
@@ -50,12 +55,11 @@
   color: #fff;
 }
 .bar-nav .icon {
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   padding: 0;
 }
 .bar-nav h1 {
-  text-align: center;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
 }
 #nav-col-20 {
   width: 3.5rem;
@@ -65,9 +69,6 @@
 }
 #nav-col-20 .list-group ul {
   height: 18rem;
-}
-#nav-col-20 .list-block ul:after {
-  background-color: #e7e7e7;
 }
 #nav-col-20 #menu-list-group ul li {
   height: 2.25rem;
@@ -102,7 +103,6 @@
   margin-left: 40%;
   position: fixed;
   text-align: center;
-  border: 0.05rem solid #808080;
   position: absolute;
   width: 3.5rem;
   top: -1.85rem;

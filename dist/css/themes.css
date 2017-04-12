@@ -2,20 +2,25 @@
 .group-content .buttons-tab {
   margin-top: 2.25rem;
 }
+#joinGroup-tab .card:first-child,
+#openGroup-tab .card:first-child,
+.joinGroup-content .card:first-child {
+  margin: 0;
+}
 #joinGroup-tab .card-header,
 #openGroup-tab .card-header,
 .joinGroup-content .card-header {
   background-image: url("../images/group-1-1080x447.png");
-  background-size: 100% 8rem;
+  background-size: 100% 7.5rem;
   width: 100%;
-  height: 8rem;
+  height: 7.5rem;
 }
 #joinGroup-tab .card-header div,
 #openGroup-tab .card-header div,
 .joinGroup-content .card-header div {
-  width: 30%;
-  height: 2.25rem;
-  margin-left: 70%;
+  width: 27%;
+  height: 2.1rem;
+  margin-left: 73%;
   background-color: #e01a57;
   opacity: 0.8;
   border-radius: 0.2rem 0 0 0;
@@ -24,7 +29,7 @@
 #openGroup-tab .card-header div p,
 .joinGroup-content .card-header div p {
   color: #fff;
-  font-size: 0.65rem;
+  font-size: 0.5rem;
   line-height: 1.1rem;
   height: 1.1rem;
   margin: 0;
@@ -52,7 +57,7 @@
   margin: 0.5rem 0.75rem;
   line-height: 1rem;
   height: 1rem;
-  font-size: 0.65rem;
+  font-size: 0.5rem;
 }
 #joinGroup-tab #purchase-card-footer a:first-child span,
 #openGroup-tab #purchase-card-footer a:first-child span,
@@ -96,13 +101,13 @@
 #joinGroup-tab #join-card-footer p:first-child,
 #openGroup-tab #join-card-footer p:first-child,
 .joinGroup-content #join-card-footer p:first-child {
-  margin-left: 8%;
+  margin-left: 15%;
 }
 #joinGroup-tab #join-card-footer div div,
 #openGroup-tab #join-card-footer div div,
 .joinGroup-content #join-card-footer div div {
   float: right;
-  width: 35%;
+  width: 40%;
   border: none;
   margin: 0;
   background-color: #e01a57;
@@ -110,13 +115,18 @@
   height: 1.9rem;
   border-radius: 0 0.45rem 0.45rem 0;
 }
+#joinGroup-tab #join-card-footer div div p,
+#openGroup-tab #join-card-footer div div p,
+.joinGroup-content #join-card-footer div div p {
+  color: #ffffff;
+}
 #joinGroup-tab #join-card-footer div span,
 #openGroup-tab #join-card-footer div span,
 .joinGroup-content #join-card-footer div span {
-  float: left;
+  float: right;
   font-size: 1rem;
   line-height: 2rem;
-  margin-left: 2%;
+  margin-right: 12%;
   color: #fff;
 }
 /*参团二级页面*/
@@ -138,7 +148,7 @@
   list-style-type: none;
 }
 #coupon-card ul li {
-  height: 4.8rem;
+  height: 5rem;
   width: 48%;
   float: left;
 }
@@ -147,11 +157,11 @@
 }
 #coupon-card ul li:nth-last-child(2) {
   float: right;
-  background-color: #33ccff;
+  background-color: #28b3ee;
 }
 #coupon-card ul li:last-child {
   margin-top: 0.75rem;
-  background-color: #ffcc00;
+  background-color: #fcbc02;
 }
 #coupon-card ul li div {
   margin: 0;
@@ -169,18 +179,20 @@
   float: right;
 }
 #coupon-card .item-text {
+  padding: 0 0.25rem;
   height: 1.3rem;
-  border-bottom: 1px dashed #000;
+  border-bottom: 1px dashed #cdcdcd;
 }
 #coupon-card .item-title {
-  font-size: 1.25rem;
+  font-size: 1.3rem;
   color: #fff;
   text-align: center;
+  margin-top: 0.5rem;
 }
 #coupon-card .item-subtitle {
   text-align: center;
   font-size: 0.5rem;
-  color: #5f646e;
+  color: #6c8998;
 }
 #coupon-card .card-footer {
   margin: 0;
@@ -198,16 +210,21 @@
   border-radius: 0.05rem;
 }
 /*参团二级页面*/
+#notice-tab .content-block-title + .list-block {
+  margin: 0;
+}
 #notice-tab .content-block-title {
-  margin-top: 0.75rem;
-  font-size: 0.85rem;
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
   white-space: normal;
   line-height: 1rem;
+  color: #333333;
+  font-weight: bold;
 }
 #notice-tab img {
   height: 8rem;
   width: 95%;
-  margin: 2.5%;
+  margin: 0 2.5%;
 }
 #notice-tab p {
   margin: 0.75rem;
