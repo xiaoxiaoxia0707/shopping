@@ -195,8 +195,12 @@
   margin: 0;
 }
 /*首页详情页面*/
+.detail-content {
+  background-color: #ffffff;
+}
 .detail-content .card {
   margin: 0;
+  box-shadow: none;
 }
 .detail-content p {
   font-size: 0.85rem;
