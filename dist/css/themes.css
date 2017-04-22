@@ -7,13 +7,13 @@
 .joinGroup-content .card:first-child {
   margin: 0;
 }
-#joinGroup-tab .card-header,
-#openGroup-tab .card-header,
-.joinGroup-content .card-header {
-  background-image: url("../images/group-1-1080x447.png");
+#joinGroup-tab img,
+#openGroup-tab img,
+.joinGroup-content img {
   background-size: 100% 7.5rem;
   width: 100%;
   height: 7.5rem;
+  position: relative;
 }
 #joinGroup-tab .card-header div,
 #openGroup-tab .card-header div,
@@ -24,6 +24,7 @@
   background-color: #e01a57;
   opacity: 0.8;
   border-radius: 0.2rem 0 0 0;
+  position: absolute;
 }
 #joinGroup-tab .card-header div p,
 #openGroup-tab .card-header div p,
