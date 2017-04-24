@@ -82,6 +82,51 @@
   margin-left: 1rem;
   font-size: 0.65rem;
 }
+.actions-modal-group span {
+  height: 3.5rem;
+  background-color: #fff;
+}
+.actions-modal-group span div {
+  height: 3.5rem;
+  width: 100%;
+}
+.actions-modal-group span p {
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+  padding: 0.5rem;
+  text-align: left;
+  margin: 0;
+}
+.actions-modal-group span div div {
+  height: 1.5rem;
+}
+.actions-modal-group span div span {
+  height: 1.2rem;
+  width: 2.2rem;
+  line-height: 1.2rem;
+  float: left;
+  margin-left: 0.75rem;
+  border-radius: 0.3rem;
+  background-color: #e7e7e7;
+}
+.actions-modal-group span:nth-child(3) div span {
+  margin-left: 0.75rem;
+}
+.actions-modal-group span:nth-child(3) div span:last-child {
+  margin-left: 0.75rem;
+}
+.actions-modal-group span input {
+  text-align: center;
+  height: 1.2rem;
+  float: left;
+  width: 4rem;
+  margin-left: 0.45rem;
+}
+.actions-modal-group:last-child span {
+  height: 2rem;
+  line-height: 2rem;
+  font-size: 0.7rem;
+}
 .tabs {
   z-index: 1;
 }
