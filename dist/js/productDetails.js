@@ -41,3 +41,7 @@ $(document).on('click','#create-actions', function () {
       var groups = [content, buttons2];
       $.actions(groups);
   });
+$(document).on('click','#specBtn', function () {
+  $.popup('.popup-about');
+});
+ 

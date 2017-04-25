@@ -82,50 +82,60 @@
   margin-left: 1rem;
   font-size: 0.65rem;
 }
-.actions-modal-group span {
-  height: 3.5rem;
-  background-color: #fff;
+.please-card {
+  position: relative;
 }
-.actions-modal-group span div {
+.spec-popup {
+  height: 52%;
+  bottom: 0;
+  top: 50%;
+  background-color: #ffffff;
+}
+.spec-popup div {
   height: 3.5rem;
   width: 100%;
 }
-.actions-modal-group span p {
+.spec-popup p {
   font-size: 0.8rem;
   line-height: 0.8rem;
   padding: 0.5rem;
   text-align: left;
   margin: 0;
 }
-.actions-modal-group span div div {
+.spec-popup div div {
   height: 1.5rem;
 }
-.actions-modal-group span div span {
+.spec-popup div span {
+  text-align: center;
+  font-size: 0.7rem;
   height: 1.2rem;
-  width: 2.2rem;
+  width: 2.8rem;
   line-height: 1.2rem;
   float: left;
   margin-left: 0.75rem;
   border-radius: 0.3rem;
   background-color: #e7e7e7;
 }
-.actions-modal-group span:nth-child(3) div span {
-  margin-left: 0.75rem;
-}
-.actions-modal-group span:nth-child(3) div span:last-child {
-  margin-left: 0.75rem;
-}
-.actions-modal-group span input {
+.spec-popup input {
   text-align: center;
   height: 1.2rem;
   float: left;
   width: 4rem;
   margin-left: 0.45rem;
 }
-.actions-modal-group:last-child span {
-  height: 2rem;
-  line-height: 2rem;
-  font-size: 0.7rem;
+.spec-popup .buttons-row {
+  width: 100%;
+  bottom: 0.5rem;
+  height: 2.5rem;
+  color: #fff;
+  position: absolute;
+  background-color: #ff9402;
+}
+.spec-popup #confirmBtn {
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  line-height: 1.5rem;
 }
 .tabs {
   z-index: 1;
