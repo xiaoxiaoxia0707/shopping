@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="css/sm-extend.css">
     <link rel="stylesheet" type="text/css" href="css/layout.css">
     <link rel="stylesheet" type="text/css" href="css/base.css">
-    <link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_s4x2saoqcdfv42t9.css">
+    <link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_i3ztchhrqjx7p66r.css">
 </head>
 
 <body>
@@ -92,7 +92,9 @@
                                     <a href="#" class="item-link item-content" id="specBtn">
                                         <div class="item-media"><i class="icon icon-f7"></i></div>
                                         <div class="item-inner">
-                                            <div class="item-title">选择尺码，主要颜色</div>
+                                            <div class="item-title">
+                                                选择尺码，主要颜色
+                                            </div>
                                         </div>
                                     </a>
                                 </li>
@@ -102,22 +104,46 @@
                 </div>
                 <!-- 数量信息弹出框 -->
                 <div class="spec-popup  popup popup-about">
-                    <div>
-                        <p>尺码</p>
-                        <div><span>M</span><span>L</span><span>XL</span><span>2XL</span></div>
-                    </div>
-                    <div>
-                        <p>主要颜色</p>
-                        <div><span>黑色</span><span>酒红色</span></div>
-                    </div>
-                    <div>
-                        <p>购买数量</p>
-                        <div>
-                            <a> <span class="btn reduce" min="1">-</span></a>
-                            <input type="number" min="1" value="1"><span class="btn plus" max="1366">+</span>
+                    <div class="ctrl-ui-sku">
+                        <div class="sku-pro">
+                            <div>
+                                <img src="http://img.alicdn.com/imgextra/i4/595412874/TB2MaV.mBNkpuFjy0FaXXbRCVXa_!!595412874.jpg_120x120q50s150.jpg">
+                                <div class="sku-pro-info">
+                                    <div>
+                                        <p class="price">￥124</p>
+                                        <p class="quantity">库存:2694</p>
+                                        <p class="sku-txt"><span class="c-sku"></span><span class="unc-sku">请选择: 尺码 颜色分类</span></p>
+                                    </div>
+                                </div>
+                                <div class="close-popup"><span class="icon iconfont icon-guanbi"></span></div>
+                            </div>
                         </div>
+                        <div class="sku-info">
+                            <div>
+                                <h2>尺码</h2>
+                                <ul>
+                                    <li class="normal">S</li>
+                                    <li class="normal">M</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h2>颜色分类</h2>
+                                <ul>
+                                    <li class="normal">红色</li>
+                                    <li class="normal">蓝色</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h2>购买数量</h2>
+                                <div class="quantity-info">
+                                    <a class="btn reduce" min="1" id="sub" href="javascript:void(0);">-</a>
+                                    <input type="text" min="1" value="1" id="bookNum">
+                                    <a class="btn plus" max="1366">+</a>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="buttons-row"><a href="#" id="joinCartBtn">加入购物车</a><a href="#" id="purchaseBtn">立即购买</a></p>
                     </div>
-                    <p class="buttons-row"><a class="close-popup" href="#" id="confirmBtn">确定</a></p>
                 </div>
                 <!-- 标签页 -->
                 <div class="buttons-tab">
