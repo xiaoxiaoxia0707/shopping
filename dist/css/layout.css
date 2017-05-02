@@ -362,3 +362,30 @@
   height: 1rem;
   font-size: 0.75rem;
 }
+/*确认收获地址*/
+.address-content .list-block {
+  margin-top: 2.25rem;
+}
+.address-content .list-block .item-link .item-inner {
+  padding: 0;
+}
+.address-content .list-block .item-media + .item-inner {
+  margin: 0;
+}
+.address-content .item-title {
+  font-size: 0.75rem;
+  line-height: 2.2rem;
+}
+.bar-footer {
+  background-color: #e01a57;
+  text-align: center;
+}
+.bar-footer a {
+  color: #fff;
+  line-height: 2.25rem;
+  font-size: 0.8rem;
+}
+/*新建收获地址*/
+.newAddress-content .card {
+  margin-top: 2.25rem;
+}
