@@ -65,6 +65,12 @@
 #order-list-block .item-inner {
   font-size: 0.75rem;
 }
+.actions-modal-group:last-child .actions-modal-button {
+  background-color: #e01a57;
+}
+.modal-overlay {
+  height: 100%;
+}
 .list-block ul:after {
   background-color: #e7e7e7 !important;
 }
