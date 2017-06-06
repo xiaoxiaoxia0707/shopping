@@ -45,11 +45,14 @@
 }
 .information-card .icon {
   color: #fff;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  float: right;
+}
+.information-card p {
+  margin: 0;
   float: right;
 }
 .information-card .list-block.media-list .item-inner {
-  padding-top: 2.5rem;
   color: #fff;
   font-size: 0.8rem;
 }
@@ -65,6 +68,18 @@
 .information-card .account-item-title .icon {
   float: right;
   padding-right: 0.75rem;
+}
+.information-card .sign {
+  height: 3rem;
+}
+.information-card .sign span {
+  float: right;
+}
+.information-card .sign p {
+  float: right;
+  margin: 0rem;
+  font-size: 0.5rem;
+  color: #fff;
 }
 .order-card .card-header .list-block,
 .tool-card .card-header .list-block {
