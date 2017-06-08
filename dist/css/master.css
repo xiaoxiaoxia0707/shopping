@@ -45,7 +45,7 @@
 }
 .information-card .icon {
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   float: right;
 }
 .information-card p {
@@ -72,11 +72,15 @@
 .information-card .sign {
   height: 3rem;
 }
-.information-card .sign span {
-  float: right;
+.information-card .sign div {
+  height: 1.8rem;
+  display: block;
+  margin-left: 80%;
 }
-.information-card .sign p {
+.information-card .sign h2 {
   float: right;
+  height: 1.2rem;
+  line-height: 1.2rem;
   margin: 0rem;
   font-size: 0.5rem;
   color: #fff;
