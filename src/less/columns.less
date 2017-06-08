@@ -1,4 +1,4 @@
-/*确定订单的页面*/
+/************************************************我的模块***************************************************/
 
 //地址卡片
 .address-card {
@@ -74,15 +74,16 @@
     & .item-inner {
         font-size: 0.75rem;
     }
- 
-
 }
-.actions-modal-group:last-child .actions-modal-button{
-         background-color: #e01a57;
-    }
-.modal-overlay{
-        height: 100%;
-    }
+
+.actions-modal-group:last-child .actions-modal-button {
+    background-color: #e01a57;
+}
+
+.modal-overlay {
+    height: 100%;
+}
+
 .list-block ul:after {
     background-color: #e7e7e7 !important;
 }
@@ -103,16 +104,16 @@
     & .card-footer {
         font-size: 0.75rem;
     }
-    & .card-footer .item-subtitle:first-child{
-         margin-left: 60%;
+    & .card-footer .item-subtitle:first-child {
+        margin-left: 60%;
     }
-    & .card-footer .item-subtitle:last-child{
+    & .card-footer .item-subtitle:last-child {
         margin-right: 0.75rem;
     }
-
 }
+
 //全部页面的中心部分内容
-.allOrder-content .tabs  .card-content {
+.allOrder-content .tabs .card-content {
     & img {
         width: 4rem;
         height: 4rem;
@@ -128,5 +129,41 @@
     }
     & .item-subtitle:first-child {
         color: #e01a57;
+    }
+}
+
+
+/***********排行榜模块******************/
+
+.ranking-content {
+    & img {
+        height: 2.5rem!important;
+        width: 2.5rem;
+        border-radius: 50%;
+    }
+    & .item-subtitle,
+    .item-after {
+        color: #e6c31c;
+    }
+    & .item-after {
+        font-size: 1rem;
+        line-height: 2.6rem;
+    }
+}
+
+//排行榜的名次
+.ranking-bar {
+    z-index: 20;
+    bottom: 0;
+    position: absolute;
+    height: 2.5rem;
+    width: 100%;
+    background-color: #e01a57;
+    & p{
+        font-size: 0.8rem;
+        color: #fff;
+        text-align: center;
+        line-height: 2.5rem;
+        margin: 0;
     }
 }

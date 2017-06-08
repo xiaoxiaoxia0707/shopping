@@ -1,4 +1,4 @@
-/*确定订单的页面*/
+/************************************************我的模块***************************************************/
 .address-card {
   margin: 0;
 }
@@ -107,4 +107,33 @@
 }
 .allOrder-content .tabs .card-content .item-subtitle:first-child {
   color: #e01a57;
+}
+/***********排行榜模块******************/
+.ranking-content img {
+  height: 2.5rem!important;
+  width: 2.5rem;
+  border-radius: 50%;
+}
+.ranking-content .item-subtitle,
+.ranking-content .item-after {
+  color: #e6c31c;
+}
+.ranking-content .item-after {
+  font-size: 1rem;
+  line-height: 2.6rem;
+}
+.ranking-bar {
+  z-index: 20;
+  bottom: 0;
+  position: absolute;
+  height: 2.5rem;
+  width: 100%;
+  background-color: #e01a57;
+}
+.ranking-bar p {
+  font-size: 0.8rem;
+  color: #fff;
+  text-align: center;
+  line-height: 2.5rem;
+  margin: 0;
 }
