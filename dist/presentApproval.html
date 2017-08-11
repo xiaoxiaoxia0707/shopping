@@ -1,0 +1,189 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>提现审批</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" type="text/css" href="css/sm.css">
+    <link rel="stylesheet" type="text/css" href="css/sm-extend.css">
+    <link rel="stylesheet" type="text/css" href="css/module.css">
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+
+</head>
+
+<body>
+    <div class="page-group">
+     <!--银行卡的体现审批页面!-->
+        <div class="page page-current" id="pageOne">
+            <!--头部内容 !-->
+            <header class="bar bar-nav">
+                <a class="icon icon-left pull-left">返回</a>
+                <h1 class="title">提现审批</h1>
+            </header>
+            <div class="content present-content">
+                <div class="type-card card">
+                <div class="card-content">
+                    <div class="list-block">
+                        <a class="item-content to-area" href="#pageTwo">
+                            <div class="item-title label ">选择银行类型</div>
+                            <div class="item-input">
+                                <input type="text" readonly class="type-text"/>
+                            </div>
+                             <span class="icon icon-right pull-right"></span>
+                        
+                        </a>
+                    </div>
+                </div>
+                 <div class="card-header">
+                        <div class="list-block">
+                            <div class="item-content">
+                                <div class="item-input">
+                                    <input type="text" placeholder="请输入银行卡卡号">
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="card-header">
+                        <div class="list-block">
+                            <div class="item-content">
+                                <div class="item-input">
+                                    <input type="number" placeholder="请输入手机号">
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="money-card card">
+                <div class="card-content">
+                    <div class="list-block">
+                        <ul>
+                            <li>
+                               
+                                    <div class="item-inner">
+                                        <div class="item-title">提现金额</div>
+                                    </div>
+                                 
+                            </li>
+                        </ul>
+                    </div>
+                </div> 
+                  <div class="card-header">
+                        <div class="money-list-block list-block">
+                            <div class="item-content">
+                                <div class="item-title label">￥</div>
+                                <div class="item-input">
+                                    <input type="number" placeholder="请输入提现金额">
+                                </div>
+                            </div>
+                        </div>
+                </div>  
+                <div class="card-content">
+                    <div class="list-block">
+                        <ul>
+                            <li>
+                               
+                                    <div class="item-inner">
+                                        <div class="money-item-title item-title">可提现金额：9999.99元</div>
+                                    </div>
+                                 
+                            </li>
+                        </ul>
+                    </div>
+                </div> 
+            </div>
+            <div class="addBtn">
+            发起审批
+            </div>
+
+            </div>
+        </div>
+        <!--银行卡选择类型页面!-->
+        <div class="page" id="pageTwo">
+        <header class="bar bar-nav">
+        <a class="icon icon-left pull-left">返回</a>
+            <h1 class="title">选择类型</h1>
+        </header>
+        <div class="content">
+            <div class="list-block">
+                <ul class="check-list">
+                    <li class="item-content">
+                        <div class="item-inner">
+                            <div class="item-title"><input type="radio" id="a1" data-id="1" /><label for="a1">中国工商银行</label></div>
+                        </div>
+                    </li>
+                    <li class="item-content">
+                        <div class="item-inner">
+                            <div class="item-title"><input type="radio" id="a2" data-id="2" /><label for="a2">招商银行</label></div>
+                        </div>
+                    </li>
+                    <li class="item-content">
+                        <div class="item-inner">
+                            <div class="item-title"><input type="radio" id="a3" data-id="3"/><label for="a3">中国光大银行</label></div>
+                        </div>
+                    </li>
+                    <li class="item-content">
+                        <div class="item-inner">
+                            <div class="item-title"><input type="radio" id="a4" data-id="4" /><label for="a4">中信银行</label></div>
+                        </div>
+                    </li>
+                    <li class="item-content">
+                        <div class="item-inner">
+                            <div class="item-title"><input type="radio" id="a5" data-id="5" /><label for="a5">浦发银行</label></div>
+                        </div>
+                    </li>
+                    <li class="item-content">
+                        <div class="item-inner">
+                            <div class="item-title"><input type="radio" id="a6" data-id="6" /><label for="a6">广发银行</label></div>
+                        </div>
+                    </li>
+                    <li class="item-content">
+                        <div class="item-inner">
+                            <div class="item-title"><input type="radio" id="a7" data-id="7" /><label for="a7">华夏银行</label></div>
+                        </div>
+                    </li>
+                    <li class="item-content">
+                        <div class="item-inner">
+                            <div class="item-title"><input type="radio" id="a8" data-id="8" /><label for="a8">中国建设银行</label></div>
+                        </div>
+                    </li>
+                    <li class="item-content">
+                        <div class="item-inner">
+                            <div class="item-title"><input type="radio" id="a9" data-id="9" /><label for="a9">交通银行</label></div>
+                        </div>
+                    </li>
+                    <li class="item-content">
+                        <div class="item-inner">
+                            <div class="item-title"><input type="radio" id="a10" data-id="10" /><label for="a10">中国银行</label></div>
+                        </div>
+                    </li>
+                    <li class="item-content">
+                        <div class="item-inner">
+                            <div class="item-title"><input type="radio" id="a11" data-id="11"/><label for="a11">中国民生银行</label></div>
+                        </div>
+                    </li>
+                     <li class="item-content">
+                        <div class="item-inner">
+                            <div class="item-title"><input type="radio" id="a12" data-id="12"/><label for="a12">兴业银行</label></div>
+                        </div>
+                    </li>
+                      <li class="item-content">
+                        <div class="item-inner">
+                            <div class="item-title"><input type="radio" id="a13" data-id="13"/><label for="a13">平安银行</label></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    
+    </div>
+
+    </div>
+    <script type='text/javascript' src='js/lib/zepto.js' charset='utf-8'></script>
+    <script type='text/javascript' src='js/lib/sm.js' charset='utf-8'></script>
+    <script type='text/javascript' src='js/lib/sm-extend.js' charset='utf-8'></script>
+     <script type='text/javascript' src='js/presentApproval.js' charset='utf-8'></script>
+</body>
+
+</html>

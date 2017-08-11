@@ -25,6 +25,16 @@
 #activity-tab .item-title {
   font-size: 0.7rem;
 }
+#activity-tab .item-subtitle {
+  border-radius: 50%;
+  text-align: center;
+  width: 2rem;
+  height: 1.4rem;
+  line-height: 1.4rem;
+  font-size: 0.65rem;
+  color: #fff;
+  background-color: #e01a57;
+}
 #organize-tab #main-organize {
   margin: 0;
 }
@@ -135,8 +145,19 @@
   font-size: 0.75rem;
 }
 .loveActivity-content .card-footer p {
+  width: 100%;
   font-size: 0.75rem;
   margin: 3%;
+}
+.loveActivity-content span {
+  border-radius: 50%;
+  text-align: center;
+  width: 2rem;
+  height: 1rem;
+  line-height: 1rem;
+  font-size: 0.65rem;
+  color: #fff;
+  background-color: #e01a57;
 }
 /*机构页面*/
 .organization-content img,
